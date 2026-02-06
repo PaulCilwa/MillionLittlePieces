@@ -1,0 +1,6 @@
+<p>Today's project is called aircrete. This is basically concrete with bubbles infused into it, creating a substance as hard as concrete but much lighter, as well as one that can be cut into shapes. Aircrete (or, as it is more properly known, &quot;foam concrete&quot;) is also an extremely good insulator of both heat and sound.</p>
+
+<p>The foam injection equipment can be quite expensive. But for something like $40, Zach built a perfectly serviceable unit out of
+easily available parts and scraps.</p>
+
+<p>Another advantage of aircrete is that is uses less concrete than regular hydraulic cement (that's a cement, usually some form of lime, mixed with water into a sand and gravel slurry).</p>
