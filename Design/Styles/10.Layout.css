@@ -1,0 +1,150 @@
+﻿/********************************************************************
+
+   PAGE LAYOUT
+
+*********************************************************************/
+
+:root 
+	{
+	--MaxBodyWidth: 1024px;
+	--DefaultBorderRadius: 20px;
+	}
+
+body {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	max-width: var(--MaxBodyWidth); /* However, use the actual value, at least in @media queries */
+	margin-left: auto;
+	margin-right: auto;
+	background-image: url('/Design/Images/Background.jpg');
+	background-position: center;
+	background-repeat: repeat;
+	background-attachment: fixed;
+	font-size: 12pt;
+}
+
+main { width: 100%; }
+
+h1 { font-size: 200%; }
+h2 { font-size: 150%; }
+h3 { font-size: 125%; }
+h4 { font-size: 100%; }
+h5 { font-size: 85%; }
+h6 { font-size: 70%; }
+
+p { 
+	font-size: 100%;
+	margin-bottom: 10pt;
+}
+
+a { 
+	text-decoration: none;
+	font-weight: normal;
+}
+
+a:hover { font-weight: bolder; }
+
+img { max-width: 100%; }
+
+img.MonthIcon { box-shadow: none; }
+	
+header, footer 
+	{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	max-width: var(--MaxBodyWidth);
+	margin-bottom: 24pt;
+	text-align: right;
+	width: 100%;
+	}
+	
+footer
+	{
+	text-align: center;
+	font-size: 75%;
+	padding: 6pt;
+	}
+	
+footer p { margin: 0; }
+
+#Middle
+	{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	}
+	
+article
+	{
+	display: block;
+	width: 100%;
+	}
+	
+@media only screen and (max-width: 1024px)
+	{
+	body { padding: 12px; }
+	}
+
+/********************************************************************
+
+       S H O R T C U T S
+
+*********************************************************************/
+
+.Right {
+	float: right;
+	margin-left: 2em;
+	max-width: 50%;
+}
+
+.Left {
+	float: left;
+	margin-right: 2em;
+	max-width: 50%;
+}
+
+.Center {
+	float: none;
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 95%;
+}
+	
+@media only screen and (max-width: 1024px)
+	{
+	.Right { float: none; margin-left: auto; }
+	.Left { float: none;  margin-right: auto; }
+	}
+
+.Shadow { filter: drop-shadow(5px 5px 10px black); }
+
+.Clear { clear: both; }
+
+.Wrap { clear: none; }
+
+.Skew
+	{
+	transform: rotate(2deg);
+	transform-origin: bottom;
+	}
+
+.SkewLeft
+	{
+	transform: rotate(358deg);
+	transform-origin: right;
+	margin-bottom: 48pt !Important;
+	}
+	
+i { font-style: italic;  font-weight: 300; }
+i i { font-weight: 500; }
+i i i { font-weight: 600; }
+
+b, strong { font-weight: 700; }
+b, strong b, strong b, strong { font-weight: 900; }
+
+q::before { content: '"'; }
+q::after { content: '"'; }
+
+em { font-weight: 500; font-style: normal; font-family: sans-serif; font-size: large; }

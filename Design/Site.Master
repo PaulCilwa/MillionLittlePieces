@@ -1,0 +1,247 @@
+<%@ Master
+    Language="VB"
+    AutoEventWireup="false"
+    CodeBehind="Site.Master.vb"
+    Inherits="MillionLittlePieces.SiteMaster" %>
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head runat=server>
+    <title><asp:Literal ID="lit_PageTitle_h" runat=server /></title>
+    <asp:Literal ID="lit_Description" runat=server />
+    <asp:Literal ID="lit_OpenGraph" runat=server />
+
+    <meta charset="utf-8" />
+    <meta http-equiv="Content-Language" content="en-us" />
+    <meta http-equiv="Content-Type" content="text/html; charset=Windows-1252" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes" />
+    <meta name="Robots" content="all" />
+
+    <link href="~/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+    <link rel="stylesheet" type="text/css" href="<%= ResolveUrl("~/Design/Styles/01.Neutralize.css") %>" />
+    <link rel="stylesheet" type="text/css" href="<%= ResolveUrl("~/Design/Styles/02.SiteColors.css") %>" />
+    <link rel="stylesheet" type="text/css" href="<%= ResolveUrl("~/Design/Styles/03.SiteFonts.css") %>" />
+    <link rel="stylesheet" type="text/css" href="<%= ResolveUrl("~/Design/Styles/10.Layout.css") %>" />
+    <link rel="stylesheet" type="text/css" href="<%= ResolveUrl("~/Design/Styles/20.Header.css") %>" />
+    <link rel="stylesheet" type="text/css" href="<%= ResolveUrl("~/Design/Styles/30.Navigation.css") %>" />
+    <link rel="stylesheet" type="text/css" href="<%= ResolveUrl("~/Design/Styles/40.Sidebar.css") %>" />
+    <link rel="stylesheet" type="text/css" href="<%= ResolveUrl("~/Design/Styles/41.Visuals.css") %>" />
+    <link rel="stylesheet" type="text/css" href="<%= ResolveUrl("~/Design/Styles/50.Article.css") %>" />
+    <link rel="stylesheet" type="text/css" href="<%= ResolveUrl("~/Design/Styles/51.Panels.css") %>" />
+    <link rel="stylesheet" type="text/css" href="<%= ResolveUrl("~/Design/Styles/52.Tables.css") %>" />
+    <link rel="stylesheet" type="text/css" href="<%= ResolveUrl("~/Design/Styles/53.Lists.css") %>" />
+    <link rel="stylesheet" type="text/css" href="<%= ResolveUrl("~/Design/Styles/57.Details.css") %>" />
+    <link rel="stylesheet" type="text/css" href="<%= ResolveUrl("~/Design/Styles/59.Pagebars.css") %>" />
+    <link rel="stylesheet" type="text/css" href="<%= ResolveUrl("~/Design/Styles/61.Sounds.css") %>" />
+    <link rel="stylesheet" type="text/css" href="<%= ResolveUrl("~/Design/Styles/65.Code.css") %>" />
+    <link rel="stylesheet" type="text/css" href="<%= ResolveUrl("~/Design/Styles/70.TimeRibbon.css") %>" />
+    <link rel="stylesheet" type="text/css" href="<%= ResolveUrl("~/Design/Styles/98.Customize.css") %>" />
+    <link rel="stylesheet" type="text/css" href="~/Design/Styles/Print.css" media="print" />
+    <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jquerymobile/1.4.5/jquery.mobile.min.css" />
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="/Design/Scripts/MyBox.js"></script>
+
+    <script>
+        window.addEventListener('load', () => {
+            document.querySelector('header h1').classList.add('loaded');
+        });
+    </script>
+    
+    <asp:ContentPlaceHolder id="CustomPageHead" runat=server />
+</head>
+
+<body>
+    <form runat=server>
+        <asp:ScriptManager runat="server" EnablePageMethods="true" />
+
+        <header>
+            <button id=SidebarToggle aria-label="View Sidebar" type=button>View Sidebar
+                <img src="/Design/Images/Menu.png" alt="View Sidebar" title="View Sidebar" />
+            </button>
+            <h1><asp:Literal ID=lit_SiteTitle runat=server /></h1>
+            <h2><asp:Literal ID=lit_PageTitle_b runat=server /></h2>
+        </header>
+
+        <div id=Middle>
+            <div id=Sidebar>
+                <asp:Literal ID="lit_MonthIcon" runat=server />
+
+                <p>Use the below buttons to find your way around the 
+                    <asp:Literal ID="lit_PageCount" runat=server />
+                    pages on this site.</p>
+
+                <nav class="Gateway_Menu">
+                    <asp:Literal ID="lit_Gateways" runat=server />
+                </nav>
+
+                <img src="/Paul_150.JPG" alt="Your thoughtful blogger" />
+
+                <p>Howdy! I'm Paul S Cilwa: writer, instructor, traveler, photographer, 
+                    singer, and all-round experiencer. This is a place where I can ruminate 
+                    at will on politics, religion, spirituality, and my private life. You 
+                    know, all those topics we aren't supposed to discuss in public!</p>
+
+                <div class="Gateway_Menu">
+                    <a href="mailto:paul@cilwa.net?subject=Blog Comment">Send Comment!</a>
+                </div>
+
+                <h6>My Trips</h6>
+
+                <div id="tripit-badge">
+                    <script type="text/javascript" class="Icon"
+                            src="https://www.tripit.com/account/badge/id/CFBAF50D4A974BE40342C2299CC4B1F2/div_id/tripit-badge/badge.js">
+                    </script>
+                    <noscript><a href="/">TripIt - Organize your travel</a></noscript>
+                </div>
+
+                <h6>Buying Me A Gift?</h6> 
+                <a href="http://amzn.com/w/2N49NW48825AI">
+                    <img src="/Design/Images/Amazon_Wish_List_Button.jpg" title="My Amazon.com Wish List" class="Icon"/>
+                </a>
+
+                <h6>If You Like My Site<br>You'll Probably Like My Books</h6>
+
+                <div class="CaptionedImageCenter">
+                    <p>People are dying to join!</p>
+                    <a href="http://www.okeydokeypress.com/SunCityCannabisClub.htm">
+                        <img src="/Design/Sidebar/SCCC.jpg" title="The Sun City Cannabis Club" class="Book">
+                    </a>
+                    <p>Be one of the dozens who couldn't put this book down!</p>
+                </div>
+                <hr />
+
+                <div class="CaptionedImageCenter">
+                    <p>She's coming in the night.</p>
+                    <a href="https://www.smashwords.com/books/view/322597">
+                        <img src="/Design/Sidebar/LadyFromHeaven.jpg" title="The Lady From Heaven" class="Book" style="width: 150px;">
+                    </a>
+                    <p>She's coming for you.</p>
+                </div>
+
+                <h6>Highly Recommended Sites</h6>
+
+                <div>
+                    <a title="State of the Nation" href="http://www.dailykos.com">Daily KOS</a><br>
+                    <a title="Journalism and Film" href="http://www.gregpalast.com/index.php">Greg Palast</a><br>
+                    <a title="What the press REALLY said" href="http://mediamatters.org">Media Matters</a><br>
+                    <a title="Michael's Web Site: Health, Angels, Massage" href="http://www.MichaelsHands.com">Michael's Hands</a><br>
+                    <a title="Josh Marshall" href="http://www.talkingpointsmemo.com">Talking Points Memo</a><br>
+                    <a title="A daily review of world news on maverick science, unexplained mysteries, unorthodox theories, strange talents, and unexpected discoveries." href="http://www.anomalist.com">The Anomolist</a><br>
+                    <a title="Spiritual Technology for the 21st Century" href="http://www.onafoundation.org">The ONA Foundation</a><br>
+                    <a title="News Photos and Articles" href="http://www.truthout.org">Truthout</a><br>
+                </div>
+            </div>
+
+                <!--div class="ShareBlock">
+                    <script>
+                        (function (d, s, id) {
+                            var js, fjs = d.getElementsByTagName(s)[0];
+                            if (d.getElementById(id)) return;
+                            js = d.createElement(s); js.id = id;
+                            js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
+                            fjs.parentNode.insertBefore(js, fjs);
+                        })(document, 'script', 'facebook-jssdk');
+                    </script>
+                    <asp:Literal ID="lit_FacebookShare" runat=server />
+                </--div-->
+                <main>
+                    <div class="HPUN-Container">
+				        <nav class="HPUN">
+                            <asp:Literal id="lit_HPUN_t" runat=server />
+				        </nav>
+                    </div>
+
+                    <div id="Fullscreen">
+                        <img id="CloseButton" data-role="button" src='/Design/Images/PictureBox_Close.png' />
+                        <div id="PrevButton"></div>
+                        <div id="NextButton"></div>
+                    </div>
+
+                        <article>
+                            <asp:Literal id="lit_DebuggingText" runat=server />
+                            <asp:Literal id="lit_PageHeader" runat=server />
+                            <asp:ContentPlaceHolder id="MainContent" runat=server />
+                            <asp:Literal id="lit_ChildPageList" runat=server />
+                        </article>
+
+			        <div class="HPUN-Container">
+				        <div class="ShareBlock">&nbsp;</div>
+				        <nav class=HPUN>
+                            <asp:Literal id="lit_HPUN_b" runat=server />
+				        </nav>
+			        </div>
+                </main>
+       </div>
+
+        <footer>
+            <asp:Literal id="lit_CopyrightNotice" runat=server />
+	    </footer>
+    </form>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const observer = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                    const video = entry.target;
+                    if (entry.isIntersecting) {
+                        video.play();
+                    } else {
+                        video.pause();
+                    }
+                });
+            }, { threshold: 0.5 });
+
+            document.querySelectorAll("video").forEach(video => {
+                video.setAttribute("playsinline", "");
+                video.setAttribute("loop", "");
+                observer.observe(video);
+            });
+        });
+    </script>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            var toggle = document.getElementById('SidebarToggle'),
+                sidebar = document.getElementById('Sidebar');
+
+            if (!toggle || !sidebar) {
+                console.warn('SidebarToggle or Sidebar not found');
+                return;
+            }
+
+            // collapse/expand
+            function toggleSidebar(e) {
+                e.preventDefault();
+                // flip between none and block
+                sidebar.style.display =
+                    window.getComputedStyle(sidebar).display === 'none'
+                        ? 'block'
+                        : 'none';
+            }
+
+            // Remove any old handlers just in case
+            toggle.replaceWith(toggle.cloneNode(true));
+            toggle = document.getElementById('SidebarToggle');
+
+            // Listen for pointerup (fires for taps and clicks alike)
+            toggle.addEventListener('pointerup', toggleSidebar);
+
+            // Ensure initial visibility on load + resize
+            function updateVisibility() {
+                if (window.innerWidth <= 1024) {
+                    sidebar.style.display = 'none';
+                    toggle.style.display = 'block';
+                } else {
+                    sidebar.style.display = 'block';
+                    toggle.style.display = 'none';
+                }
+            }
+            window.addEventListener('resize', updateVisibility);
+            updateVisibility();
+        });
+    </script>
+
+</body>
+</html>

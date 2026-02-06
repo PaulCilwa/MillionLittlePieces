@@ -1,0 +1,170 @@
+﻿/********************************************************************
+
+    FONTS
+
+*********************************************************************/
+
+
+/********************************************************************
+    FONT-FACE DECLARATIONS
+*********************************************************************/
+
+/* Icon Font */
+@font-face {
+	font-family: Icon;
+	font-weight: bold;
+	font-style: italic;
+	src: url('/Design/Fonts/IcoMoon-Free.ttf');
+}
+
+/* Site Title Fonts */
+@font-face {
+	font-family: SiteTitle;
+	src: url('/Design/Fonts/CURLZ___.TTF');
+}
+
+@font-face {
+	font-family: SiteTitle2;
+	src: url('/Design/Fonts/SF_Fedora.ttf');
+}
+
+/* Heading Fonts */
+@font-face {
+	font-family: Headings;
+	src: url('/Design/Fonts/SEGOEPR.TTF');
+}
+
+@font-face {
+	font-family: Headings;
+	font-weight: bold;
+	src: url('/Design/Fonts/SEGOEPRB.TTF');
+}
+
+/* Content Fonts (EB Garamond) */
+@font-face {
+	font-family: 'Content';
+	font-style: normal;
+	font-weight: 400;
+	src: url('/Design/Fonts/EBGaramond-Normal.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Content';
+	font-style: normal;
+	font-weight: 700;
+	src: url('/Design/Fonts/EBGaramond-Normal.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Content';
+	font-style: normal;
+	font-weight: 800;
+	src: url('/Design/Fonts/EBGaramond-Normal.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Content';
+	font-style: italic;
+	font-weight: 400;
+	src: url('/Design/Fonts/EBGaramond-Italic.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Content';
+	font-style: italic;
+	font-weight: 700;
+	src: url('/Design/Fonts/EBGaramond-Italic.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Content';
+	font-style: italic;
+	font-weight: 800;
+	src: url('/Design/Fonts/EBGaramond-Italic.ttf') format('truetype');
+}
+
+/* Handwriting Fonts */
+@font-face {
+	font-family: Handwriting;
+	src: url('/Design/Fonts/SEGOESC.TTF');
+}
+
+@font-face {
+	font-family: Handwriting;
+	font-weight: bold;
+	src: url('/Design/Fonts/SEGOSCB.TTF');
+}
+
+/********************************************************************
+    FONT VARIABLES
+*********************************************************************/
+
+:root {
+	/************************************************************
+        BODY
+    ************************************************************/
+	--fnt_Body_Heading: sans-serif;
+	--fnt_Body_Text: serif;
+	--fnt_Body_Link: serif;
+	--fnt_Body_Accent: serif;
+	/************************************************************
+        HEADER
+    ************************************************************/
+	--fnt_Header_SiteTitle: SiteTitle, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+	--fnt_Header_SiteTitle2: SiteTitle2, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+	--fnt_Header_PageTitle: Headings;
+	--fnt_Header_Heading: var(--fnt_Header_PageTitle);
+	--fnt_Header_Text: 'Segoe UI', Arial, sans-serif;
+	--fnt_Header_Link: var(--fnt_Header_Text);
+	--fnt_Header_Accent: var(--fnt_Header_Text);
+	/************************************************************
+        SIDEBAR
+    ************************************************************/
+	--fnt_Sidebar_Heading: 'Times New Roman', serif;
+	--fnt_Sidebar_Text: Tahoma, Arial, Helvetica, sans-serif;
+	--fnt_Sidebar_Link: var(--fnt_Sidebar_Text);
+	--fnt_Sidebar_Accent: var(--fnt_Sidebar_Text);
+	/************************************************************
+        NAVIGATION
+    ************************************************************/
+	--fnt_Nav_Link: Tahoma, Arial, Helvetica, sans-serif;
+	/************************************************************
+        CONTENT
+    ************************************************************/
+	--fnt_Content_Heading: Headings;
+	--fnt_Content_Text: Content;
+	--fnt_Content_Link: var(--fnt_Content_Text);
+	--fnt_Content_Accent: var(--fnt_Content_Text);
+	/************************************************************
+        PANELS
+    ************************************************************/
+	--fnt_Panel_Heading: Headings;
+	--fnt_Panel_Text: var(--fnt_Sidebar_Text);
+	--fnt_Panel_Link: var(--fnt_Panel_Text);
+	--fnt_Panel_Accent: var(--fnt_Panel_Text);
+	/************************************************************
+        SPECIALTY FONTS
+    ************************************************************/
+	--fnt_Handwriting: Handwriting, 'Comic Sans', cursive;
+	--fnt_Script: "Lucida Handwriting", Handwriting, cursive;
+	--fnt_Icon: Icon, 'icomoon';
+	--fnt_Code: "Lucida Console", Terminal, monospace;
+	--fnt_Sound: var(--fnt_Sidebar_Text);
+}
+
+/********************************************************************
+    BASE FONT APPLICATION
+*********************************************************************/
+
+body {
+	font-family: var(--fnt_Body_Text);
+}
+
+h1 { font-family: var(--fnt_Header_SiteTitle) }
+h2 { font-family: var(--fnt_Header_PageTitle)}
+
+h3, h4, h5, h6 {
+	font-family: var(--fnt_Body_Heading);
+}
+
+main { font-family: var(--fnt_Content_Text); }

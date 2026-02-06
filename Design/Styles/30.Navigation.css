@@ -1,0 +1,101 @@
+﻿/********************************************************************
+
+	    NAVIGATION
+	
+*********************************************************************/
+nav {
+	display: flex;
+	justify-content: space-between;
+	font-size: 75%;
+	margin-bottom: 10pt;
+	margin-left: 6pt;
+	margin-right: 6pt;
+}
+
+main nav
+	{
+    flex-direction: row;
+	align-items: center;
+    width: 100%;
+    position: relative;
+	}
+
+main nav.Gateways
+	{
+	display: none;
+	}
+	
+@media only screen and (max-width: 1024px)
+	{
+	main nav.Gateways { display: flex; }
+	}
+
+main div.ShareBlock
+	{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	width: min-content;	
+    align-items: center;
+	margin-right: 10px;
+	}
+
+div.fb-share-button
+	{
+	position: relative;
+	display: inline-block;
+	margin-right: 10px;
+	margin-bottom: 5px;
+	height: 20px;
+	}
+	
+main div.HPUN-Container
+	{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	height: 60px;
+	align-items: center;
+	width: 100%;
+	flex-wrap: nowrap;	
+	}
+	
+main nav.HPUN
+	{
+	flex-direction: row-reverse;
+	justify-content: end;
+	height: 50px;
+	align-items: end;
+	}
+
+main nav.HPUN a {
+	background-repeat: no-repeat;
+	background-position: top;
+	font-size: 9pt;
+	font-family: var(--fnt_Nav_Link);
+	background-color: var(--clr_Nav_Background);
+	color: var(--clr_Nav_Link);
+	padding: 3px 0px 0px 0px;
+	height: 20px;
+	width: 100px;
+	text-align: center;
+	text-decoration: none;
+}
+
+a.NavHome, a:visited.NavHome { background-image: url("/Design/Images/Home_Normal.gif"); }
+a:hover.NavHome { background-image: url("/Design/Images/Home_Hover.gif"); }
+
+a.NavPrev {	background-image: url('/Design/Images/Prev_Normal.gif') }
+a:hover.NavPrev { background-image: url("/Design/Images/Prev_Hover.gif"); }
+
+a.NavUp { background-image: url("/Design/Images/Up_Normal.gif"); }
+a:hover.NavUp { background-image: url("/Design/Images/Up_Hover.gif"); }
+
+a.NavNext { background-image: url("/Design/Images/Next_Normal.gif"); }
+a:hover.NavNext { background-image: url("/Design/Images/Next_Hover.gif"); }
+
+a.NavEarlier { background-image: url("/Design/Images/Earlier_Normal.gif"); }
+a:hover.NavEarlier { background-image: url("/Design/Images/Earlier_Hover.gif"); }
+
+a.NavLater { background-image: url("/Design/Images/Later_Normal.gif"); }
+a:hover.NavLater { background-image: url("/Design/Images/Later_Hover.gif"); }

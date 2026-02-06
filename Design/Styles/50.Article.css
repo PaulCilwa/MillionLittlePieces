@@ -1,0 +1,98 @@
+﻿/********************************************************************
+	
+	ARTICLE
+	
+*********************************************************************/
+
+article {
+    clear: both;
+    display: block;
+    min-height: 300px;
+    margin-bottom: 24pt;
+    position: relative;
+    background-color: var(--clr_Content_Background);
+    color: var(--clr_Content_Text);
+    padding: 12pt 1em 12pt 1em;
+    border-radius: var(--DefaultBorderRadius);
+    box-shadow: 5px 5px 10px black;
+    overflow: auto;
+}
+
+    article h3,
+    article h4,
+    article h5,
+    article h6 {
+        color: var(--clr_Content_Heading);
+        font-family: var(--fnt_Content_Heading);
+        clear: both;
+        text-wrap: balance;
+    }
+
+    article h5, article h6 { clear: none; }
+    article h3 { font-weight: bold; }
+    article h4 { font-style: italic; }
+    article h5 { font-weight: bold; }
+    article h6 { 
+        font-weight: bold;
+        font-style: italic;
+        }
+
+    article p {
+        font-family: var(--fnt_Content_Text);
+        color: var(--clr_Content_Text);
+        text-wrap: pretty;
+    }
+
+    article a {
+        color: var(--clr_Content_Link);
+        font-weight: normal;
+    }
+
+        article a:visited, article a:hover, a:active {
+            font-family: var(--fnt_Content_Accent);
+            color: var(--clr_Content_Visited);
+        }
+
+    article hr {
+        background-image: url('/Design/Images/hr.png');
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center;
+        border-style: none;
+        height: 30px;
+        clear: both;
+    }
+
+    article p.Date {
+        font-family: var(--fnt_Content_Heading);
+        color: var(--clr_Content_Heading);
+        font-size: 110%;
+        font-weight: bold;
+        font-style: italic;
+        margin-left: 2em;
+    }
+
+    article p.pre {
+        white-space: pre;
+        tab-size: 4;
+        overflow: auto;
+    }
+
+    article .Handwriting {
+        color: darkblue;
+        font-size: 14pt;
+        font-family: var(--fnt_Handwriting);
+        font-style: normal;
+    }
+
+    article ul {
+        list-style-type: none;
+    }
+
+        article ul li {
+            background-image: url('/Design/Images/Pointer.gif');
+            background-position: 20px 5px;
+            min-height: 30px;
+            background-repeat: no-repeat;
+            padding-left: 10%;
+        }

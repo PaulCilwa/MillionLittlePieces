@@ -1,0 +1,132 @@
+﻿div.HorizontalScroll {
+    overflow-x: scroll;
+    overflow-y: hidden;
+    max-width: 770px;
+}
+
+.TimeRibbon {
+    box-shadow: 5px 5px 10px black;
+    margin-bottom: 12pt;
+}
+
+table.TimeRibbon {
+    text-align: center;
+    border: 0;
+    background-color: white;
+    margin: 0;
+}
+
+    table.TimeRibbon td {
+        vertical-align: middle;
+    }
+
+tr.Residence td {
+    background-color: royalblue;
+    color: white;
+    font-family: var(--Sidebar_Fonts);
+    padding: 5px;
+}
+
+    tr.Residence td:nth-child(odd) {
+        background-color: navy;
+    }
+
+    tr.Residence td[colspan="1"], tr.Residence td[colspan="2"] {
+        font-size: 7pt;
+    }
+
+    tr.Residence td[colspan="3"], tr.Residence td[colspan="4"] {
+        font-size: 8pt;
+    }
+
+    tr.Residence td[colspan="5"], tr.Residence td[colspan="6"] {
+        font-size: 9pt;
+    }
+
+tr.Posts {
+    font-size: x-small;
+    line-height: normal;
+}
+
+    tr.Posts td, tr.Milestone td {
+        vertical-align: middle;
+        text-align: center;
+    }
+
+    tr.Posts p, tr.Milestone p {
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-size: 8pt;
+        font-weight: lighter;
+        text-align: center;
+        text-align-last: center;
+    }
+
+    tr.Posts td img {
+        max-width: none;
+        height: 100px;
+        margin-top: 4px;
+        border-radius: calc(var(--DefaultBorderRadius) / 2);
+    }
+
+tr.Milestone td {
+    padding: 5px;
+    color: darkblue;
+    background-color: var(--Complement1);
+}
+
+tr.Milestone a {
+    color: darkblue;
+}
+
+tr.Milestone td:not(:empty) {
+    font-size: 8pt;
+    font-family: var(--Sidebar_Fonts);
+    background-color: var(--Complement3);
+}
+
+tr.Employment td {
+    background-color: palegreen;
+    padding: 5px;
+}
+
+    tr.Employment td:not(:empty) {
+        background-color: darkgreen;
+        font-family: var(--Sidebar_Fonts);
+        font-size: 10pt;
+        color: white;
+    }
+
+    tr.Employment td:nth-child(odd):not(:empty) {
+        background-color: #0A6F0A; /* paler than darkgreen, darker than palegreen */
+    }
+
+    tr.Employment td[colspan="1"], tr.Employment td[colspan="2"] {
+        font-size: 7pt;
+    }
+
+    tr.Employment td[colspan="3"], tr.Employment td[colspan="4"] {
+        font-size: 8pt;
+    }
+
+    tr.Employment td[colspan="5"], tr.Employment td[colspan="6"] {
+        font-size: 9pt;
+    }
+
+tr.Month td {
+    font-family: var(--Sidebar_Fonts);
+    font-size: 8pt;
+    color: teal;
+}
+
+tr.Year td {
+    font-family: var(--Sidebar_Fonts);
+    font-size: 12pt;
+    font-style: italic;
+    font-weight: bold;
+    background-color: var(--clr_Panel_Background);
+    color: white;
+}
+
+tr.Year td:nth-child(odd) {
+    background-color: teal;
+}

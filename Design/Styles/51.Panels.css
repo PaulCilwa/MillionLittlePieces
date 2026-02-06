@@ -1,0 +1,183 @@
+/********************************************************************
+
+	Figures and Asides
+
+*********************************************************************/
+
+article aside,
+article blockquote,
+article figure {
+    clear: both;
+    color: var(--clr_Panel_Text);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    border-radius: var(--DefaultBorderRadius);
+    box-shadow: 5px 5px 10px black;
+    background-color: var(--clr_Panel_Background);
+    text-align: center;
+    text-align-last: center;
+    font-style: italic;
+    overflow: auto;
+    padding: 2%;
+    margin: 0 auto 24pt auto;
+    max-width: 95%;
+    min-height: 50px;
+}
+
+    article aside:not(:has(p, h1, h2, h3, ul, ol, blockquote)) {
+        display: block;
+    }
+
+    article aside:has(code) {
+        display: block;
+    }
+
+    article aside.Small {
+        font-size: 70%;
+    }
+
+    article blockquote {
+        overflow: initial;
+    }
+
+    blockquote::before,
+    blockquote::after {
+        position: absolute;
+        font-family: 'Arial Rounded MT Bold';
+        font-size: 750%;
+        line-height: 30px;
+        text-shadow: 7px 5px 10px rgba(0, 0, 0, 0.5);
+        color: purple;
+    }
+
+    blockquote::before {
+        content: open-quote;
+        top: 10px;
+        left: 10px;
+        bottom: -45px;
+        right: initial;
+    }
+
+    blockquote::after {
+        content: close-quote;
+        top: initial;
+        right: 30px;
+        left: initial;
+        bottom: -45px;
+    }
+
+    blockquote.Transcript p {
+        text-align: left;
+        margin-left: 0.5in;
+        text-indent: -0.5in;
+        font-weight: normal;
+    }
+
+    article aside h2,
+    article aside h3,
+    article aside h4,
+    article blockquote h2,
+    article blockquote h3,
+    article blockquote h4,
+    article figure figuretitle,
+    article figure h2,
+    article figure h3,
+    article figure h4 {
+        color: var(--clr_Panel_Heading);
+        width: fit-content;
+        margin-top: 0px;
+        margin-left: auto;
+        margin-right: auto;
+        font-weight: bold;
+    }
+
+    article aside p,
+    article blockquote p,
+    article figure figcaption,
+    article figure p {
+        font-size: 90%;
+        text-align: left;
+        text-align-last: left;
+        width: fit-content;
+        font-family: var(--fnt_Panel_Text);
+        color: var(--clr_Panel_Text);
+        font-size: 90%;
+    }
+
+    article aside a,
+    article blockquote a,
+    article figure a {
+        color: var(--clr_Panel_Link);
+    }
+
+    article aside div,
+    article blockquote div,
+    article figure div {
+        position: relative;
+        display: block;
+        max-width: 100%;
+        min-width: fit-content;
+        width: fit-content;
+    }
+
+    article aside.Horizontal,
+    article figure.Horizontal {
+        flex-direction: row;
+        text-align: left;
+        text-align-last: left;
+        max-width: 100%;
+        margin-left: 0;
+        margin-right: 0;
+        justify-content: space-between;
+    }
+
+    @media only screen and (max-width: 1000px) {
+        article aside.Horizontal,
+        article figure.Horizontal {
+            flex-direction: column;
+        }
+    }
+
+    article aside.Horizontal div,
+    article figure.Horizontal div {
+        display: flex;
+        flex-direction: column;
+        width: fit-content;
+        max-width: 40%;
+        padding: 2%;
+    }
+
+    article aside.Horizontal p,
+    article figure.Horizontal p {
+        text-align: left;
+        text-align-last: left;
+        max-width: 40%;
+        width: fit-content;
+        padding: 2%;
+    }
+
+    article aside.Horizontal img,
+    article figure.Horizontal img {
+        max-width: 50%;
+        margin: 0;
+        object-fit: contain;
+    }
+
+    cite {
+        font-size: 75%;
+        text-align: right;
+        margin-top: 6pt;
+    }
+
+    article aside cite,
+    article blockquote cite,
+    article figure cite {
+        color: var(--clr_Panel_Text);
+    }
+
+    article aside.Script {
+        align-items: flex-start;
+    }

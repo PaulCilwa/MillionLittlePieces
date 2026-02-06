@@ -1,0 +1,368 @@
+﻿img, video, iframe[src$="https://www.youtube.com/embed"], iframe.Map, iframe.Example {
+    display: block;
+    float: none;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 12pt;
+    max-width: 100%;
+    max-height: 600px;
+    width: auto;
+    page-break-inside: avoid;
+    border-radius: var(--DefaultBorderRadius);
+    box-shadow: 5px 5px 10px black;
+}
+
+iframe[src^="https://www.youtube.com/embed"], iframe.Map, iframe.Example {
+    width: 100%;
+}
+
+img.Icon,
+img[src$='.png'],
+img[src$='.gif'],
+img[src$='.webp'] {
+    box-shadow: none /* !important*/;
+    filter: drop-shadow(5px 5px 10px black);
+    border-radius: 0;
+}
+
+img.Book,
+img.SquareBorder {
+    border-radius: 0;
+    box-shadow: 5px 5px 10px black;
+}
+
+
+img.NoBorder {
+    border-radius: 0;
+    box-shadow: none;
+    filter: none;
+}
+
+figure img,
+figure video {
+    max-width: 95% !important;
+}
+
+/********************************************************************
+       PHOTO PANEL
+*********************************************************************/
+
+div.PhotoPanel {
+    clear: both;
+    display: flex;
+    flex-direction: column;
+    margin: 0 0 12pt 0;
+    width: 100%;
+}
+
+    div.PhotoPanel p {
+        text-align: center;
+        text-align-last: center;
+    }
+
+    div.PhotoPanel div.PhotoRow2,
+    div.PhotoPanel div.PhotoRow3,
+    div.PhotoPanel div.PhotoRow4,
+    div.PhotoPanel div.PhotoRow5 {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: flex-end;
+        flex-wrap: nowrap;
+        width: 100%;
+    }
+
+    div.PhotoPanel img,
+    div.PhotoPanel figure,
+    div.PhotoPanel video {
+        max-width: 100%;
+        margin: 0;
+        margin-bottom: 12pt;
+    }
+
+    div.PhotoPanel div.PhotoRow2 img,
+    div.PhotoPanel div.PhotoRow2 figure,
+    div.PhotoPanel div.PhotoRow2 video {
+        max-width: 47%;
+    }
+
+    div.PhotoPanel div.PhotoRow3 img,
+    div.PhotoPanel div.PhotoRow3 figure,
+    div.PhotoPanel div.PhotoRow3 video {
+        max-width: 30%;
+    }
+
+    div.PhotoPanel div.PhotoRow4 img,
+    div.PhotoPanel div.PhotoRow4 figure,
+    div.PhotoPanel div.PhotoRow4 video {
+        max-width: 22%;
+    }
+
+    div.PhotoPanel div.PhotoRow5 img,
+    div.PhotoPanel div.PhotoRow5 figure,
+    div.PhotoPanel div.PhotoRow5 video {
+        max-width: 17%;
+    }
+
+@media only screen and (max-width: 1024px) {
+    div.PhotoPanel div.PhotoRow2,
+    div.PhotoPanel div.PhotoRow3,
+    div.PhotoPanel div.PhotoRow4,
+    div.PhotoPanel div.PhotoRow5 {
+        flex-direction: column;
+    }
+
+        div.PhotoPanel div.PhotoRow2 img,
+        div.PhotoPanel div.PhotoRow2 figure,
+        div.PhotoPanel div.PhotoRow2 video,
+        div.PhotoPanel div.PhotoRow3 img,
+        div.PhotoPanel div.PhotoRow3 figure,
+        div.PhotoPanel div.PhotoRow3 video,
+        div.PhotoPanel div.PhotoRow4 img,
+        div.PhotoPanel div.PhotoRow4 figure,
+        div.PhotoPanel div.PhotoRow4 video,
+        div.PhotoPanel div.PhotoRow5 img,
+        div.PhotoPanel div.PhotoRow5 figure,
+        div.PhotoPanel div.PhotoRow5 video {
+            max-width: 100%;
+        }
+}
+
+/********************************************************************
+          F U L L S C R E E N
+*********************************************************************/
+
+div#Fullscreen {
+    position: fixed;
+    z-index: 9000;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.7); /* Black w/ opacity */
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    align-items: stretch;
+    display: none;
+}
+
+    div#Fullscreen #CloseButton {
+        opacity: 0.3;
+        position: absolute;
+        top: 5px;
+        right: 5px;
+    }
+
+    div#Fullscreen img#PrevButton,
+    div#Fullscreen img#NextButton {
+        background-image: url('../Images/PictureBox_Prev.png');
+        background-size: contain;
+        background-repeat: no-repeat;
+        width: 10%;
+        height: 100%;
+        min-width: 30px;
+        min-height: 30px;
+        max-width: 100px;
+        max-height: 100px;
+        position: absolute;
+        left: 10px;
+        top: 46%;
+        top: calc(50%-100px);
+        opacity: 0.3;
+        order: 1;
+    }
+
+    div#Fullscreen img#NextButton {
+        background-image: url('../Images/PictureBox_Next.png');
+        left: auto;
+        right: 10px;
+        order: 3;
+    }
+
+    div#Fullscreen img#PrevButton:hover,
+    div#Fullscreen img#NextButton:hover,
+    div#Fullscreen img#CloseButton:hover {
+        opacity: 0.7
+    }
+
+    div#Fullscreen div#Fullscreen-Text {
+        position: absolute;
+        text-align: center;
+        order: 2;
+        bottom: 10px;
+        width: 100%;
+        color: white;
+        text-shadow: 2px 2px 2px black;
+        display: flex;
+        display: -webkit-flex;
+        -webkit-flex-direction: column-reverse;
+        flex-direction: column-reverse;
+        -webkit-align-items: center;
+        align-items: center;
+        -webkit-align-content: flex-start;
+        align-content: flex-start;
+    }
+
+    div#Fullscreen #Caption {
+        font-size: 120%;
+        order: 3;
+        background-color: rgba(0,0,0,0.2);
+        padding: 5px;
+        border-radius: 5px;
+    }
+
+    div#Fullscreen p#Description {
+        font-size: 100%;
+        width: 50%;
+        max-width: 1000px;
+        margin-left: auto;
+        margin-right: auto;
+        order: 2;
+        background-color: rgba(0,0,0,0.2);
+        padding: 5px;
+        border-radius: 5px;
+    }
+
+    div#Fullscreen p#Author {
+        font-size: 90%;
+        order: 1;
+        background-color: rgba(0,0,0,0.2);
+        padding: 5px;
+        border-radius: 5px;
+    }
+
+        div#Fullscreen p#Author::before {
+            content: "Photo \00a9"
+        }
+
+
+@media only screen and (min-width: 1000px) {
+    div#Fullscreen #PrevButton,
+    div#Fullscreen #NextButton {
+        width: 100px;
+        height: 100px;
+        opacity: 0.1;
+    }
+}
+
+/********************************************************************
+	Carousel (Limited to 10 images)
+*********************************************************************/
+
+div.Carousel {
+    position: relative;
+    clear: both;
+}
+
+    div.Carousel img {
+        position: absolute;
+        top: 0;
+        left: 0;
+        opacity: 0;
+        box-shadow: none;
+        animation-timing-function: ease-in-out;
+        animation-iteration-count: infinite;
+        animation-duration: 4s;
+        animation-name: Carousel;
+    }
+
+        div.Carousel img:nth-of-type(1) {
+            position: relative;
+            opacity: 1;
+            box-shadow: 5px 5px 10px black;
+            animation-name: none;
+        }
+
+        div.Carousel img:nth-of-type(2) {
+            animation-delay: 1s;
+        }
+
+        div.Carousel img:nth-of-type(3) {
+            animation-delay: 2s;
+        }
+
+        div.Carousel img:nth-of-type(4) {
+            animation-delay: 3s;
+        }
+
+        div.Carousel img:nth-of-type(5) {
+            animation-delay: 4s;
+        }
+
+        div.Carousel img:nth-of-type(6) {
+            animation-delay: 5s;
+        }
+
+        div.Carousel img:nth-of-type(7) {
+            animation-delay: 6s;
+        }
+
+        div.Carousel img:nth-of-type(8) {
+            animation-delay: 7s;
+        }
+
+        div.Carousel img:nth-of-type(9) {
+            animation-delay: 8s;
+        }
+
+        div.Carousel img:nth-of-type(10) {
+            animation-delay: 9s;
+        }
+
+@keyframes Carousel {
+    0% { opacity: 0; }
+    25% { opacity: 1; }
+    50% { opacity: 1; }
+    90% { opacity: 0; }
+    100% { opacity: 0; }
+}
+
+/********************************************************************
+          S L I D E S H O W
+*********************************************************************/
+
+div.Slideshow {
+    height: 550px;
+    width: auto;
+    position: relative;
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+    div.Slideshow button {
+        font-size: 400%;
+        background-color: transparent;
+        height: 50pt;
+        z-index: 10;
+        position: absolute;
+        top: 210px;
+        opacity: 0.5;
+    }
+
+    div.Slideshow img {
+        opacity: 0;
+    }
+
+#Prev {
+    left: 10px;
+}
+
+#Next {
+    right: 10px;
+}
+
+div.Slideshow button:hover {
+    font-weight: bold;
+    opacity: 1;
+}
+
+div.Slideshow img.Show, .Show {
+    opacity: 1;
+    border-radius: 0;
+    position: absolute;
+    top: 0;
+}

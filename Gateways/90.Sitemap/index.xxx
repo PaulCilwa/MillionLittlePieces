@@ -1,0 +1,67 @@
+<% Option Explicit %>
+<!DOCTYPE html>
+<html>
+
+<!-- #BeginTemplate "../../Design/Template.dwt" -->
+
+<!-- #include virtual="/Design/CilwaWeb/CW_Classes.asp" -->
+
+<head>
+<meta http-equiv="Content-Language" content="en-us">
+<meta http-equiv="Content-Type" content="text/html; charset=Windows-1252">
+<meta NAME="Robots" CONTENT="all">
+
+<!-- #BeginEditable "doctitle" -->
+<title>Complete Sitemap</title>
+<meta name="Published" content="No" />
+<meta name="Global" content="98" />
+<meta name="Description" content="Browse via an accessible list of every page at this site." />
+<meta name="Thumbnail" content="Badge.png" />
+<!-- #EndEditable -->
+<link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
+
+
+<%  =CW_MyDatabase.Pages.ThisPage.WriteOpenGraphMetadata %>
+<% Const CW_Show_Quick_Links = False %>
+
+<!-- jQuery core library, downloaded from common location -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+<!-- jQuery mobile library, downloaded from common location -->
+<link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jquerymobile/1.4.5/jquery.mobile.min.css">
+<script src="/Design/MyBox.js"></script>
+
+<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes">
+<link rel="stylesheet" type="text/css" href="/Design/Styles/00.Basic.css">
+<link rel="stylesheet" type="text/css" href="/Design/Styles/Print.css" media="print">
+
+<script>
+$(document).ready(function()
+	{
+	$("#SidebarToggle").click(function()
+		{
+		$("#Sidebar").toggle()
+		})
+	MyBox = new myBox();
+	MyBox.Attach();
+	});
+</script>
+
+</head>
+
+<body>
+
+<!-- #include virtual="/Design/Template_Top.asp" -->
+
+<!-- #BeginEditable "Main" -->
+
+<!-- #include file ="sitemap.asp" -->
+
+<!-- #EndEditable -->
+
+<!-- #include virtual="/Design/Template_Bottom.asp" -->
+
+			
+</body>
+<!-- #EndTemplate -->
+</html>

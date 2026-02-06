@@ -1,0 +1,38 @@
+﻿/********************************************************************
+
+    DETAILS
+	
+*********************************************************************/
+
+details
+	{
+	background-color: var(--clr_Panel_Background);
+	color: var(--clr_Panel_Text);
+	border-radius: var(--DefaultBorderRadius);
+	padding: 6px 1em 6px 1em;
+	box-shadow: 5px 5px 10px black;   
+	margin-bottom: 12pt;
+	clear: both;
+	}
+	
+details summary
+	{
+	padding: 4px;
+	cursor: pointer;
+	}
+	
+details details
+	{
+	background-color: var(--clr_Panel_Background_Light1);
+	}
+
+details details details
+	{
+	background-color: var(--clr_Content_Background);
+	color: var(--clr_Content_Text);
+	}
+
+	details details details details {
+		background-color: var(--clr_Panel_Background_Light1);
+	}
+

@@ -1,0 +1,139 @@
+﻿/********************************************************************
+	
+   SIDEBAR
+
+*********************************************************************/
+
+#SidebarToggle {
+	position: absolute;
+	display: none;
+	top: 0;
+	right: 0;
+	box-shadow: none;
+	border-radius: 0;
+	z-index: 99;
+	left: unset;
+	background: none;
+	border: none;
+	padding: 0;
+	cursor: pointer;
+	pointer-events: auto;
+}
+
+	#SidebarToggle img {
+		width: 48px;
+		height: 48px;
+		top: 0;
+		right: 0;
+		left: unset;
+		}
+	
+@media only screen and (max-width: 1024px) {
+	#SidebarToggle {
+		display: block;
+	}
+}
+
+#Sidebar
+	{
+ 	display: block;
+ 	flex-direction: column;
+	border-radius: var(--DefaultBorderRadius);
+ 	box-shadow: 5px 5px 10px black;
+	background-color: var(--clr_Sidebar_Background);
+	padding: 10px;
+	margin: 0 20px 12pt 0;
+	min-width: 200px;
+	text-align: center;
+	width: 20%;
+	}
+	
+@media only screen and (max-width: 1024px)
+	{
+	#Sidebar { display: none; }
+	}
+
+#Sidebar h3,
+#Sidebar h4 {
+	font-family: var(--fnt_Sidebar_Heading);
+	color: var(--clr_Sidebar_Heading);
+}
+
+#Sidebar h5,
+#Sidebar h6 {
+	font-family: var(--fnt_Sidebar_Text);
+	color: var(--clr_Sidebar_Heading);
+	font-weight: bold;
+}
+
+#Sidebar p {
+	font-family: var(--fnt_Sidebar_Text);
+	color: var(--clr_Sidebar_Text);
+	margin: 0 auto 10px auto;
+	width: 75%;
+	text-align: center;
+	font-size: 75%;
+	font-family: var(--fnt_Sidebar_Text);
+	color: var(--clr_Sidebar_Text);
+}
+
+#Sidebar a {
+	font-family: var(--fnt_Sidebar_Link);
+	color: var(--clr_Sidebar_Link);
+}
+
+	#Sidebar a:visited, #Sidebar a:hover, #Sidebar a:active {
+		font-family: var(--fnt_Sidebar_Link);
+		color: var(--clr_Sidebar_Link);
+	}
+
+#Sidebar nav 
+	{
+ 	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	width: 90%;
+	}
+
+a.Gateway
+	{
+	display: block;
+	padding: 2px;
+	width: 10em;
+	font-size: 9pt;
+	text-align: center;
+	font-weight: bold;
+	text-decoration: none;
+	font-family: var(--fnt_Nav_Link);
+	color: var(--clr_Sidebar_Button_Link) !important;
+	background-color: var(--clr_Sidebar_Button);
+	box-shadow: 4px 4px 6px black;
+	text-align: center;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 6px;
+	}
+
+	a.Gateway:hover 
+		{
+		box-shadow: 1px 1px 6px black;
+		transform: translate(3px, 3px);
+		}
+
+#Sidebar div.ScrollingList
+	{
+	height: auto;
+	max-height: 250px;
+	margin-left: auto;
+	margin-right: auto;
+	overflow: auto;
+	}
+	
+#Sidebar :not(nav) a 
+	{ 
+	color: var(--clr_Sidebar_Link);
+	font-size: 75%;
+	line-height: 1;
+	}
+
+#Sidebar img { margin-top: 12pt; }

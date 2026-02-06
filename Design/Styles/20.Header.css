@@ -1,0 +1,74 @@
+﻿/********************************************************************
+	
+   HEADER
+
+*********************************************************************/
+
+header {
+	margin-top: 5pt;
+	background-color: var(--clr_Header_Background);
+	background-image: url('/Design/Images/Banner.jpg');
+	background-position: right center;
+	background-repeat: no-repeat;
+	border-radius: var(--DefaultBorderRadius);
+	box-shadow: 5px 5px 10px black;
+	height: 228px;
+	position: relative;
+}
+	
+header img
+	{
+	position: absolute;
+	top: 10px;
+	left: 10px;
+	}
+
+header h1
+	{
+	z-index: 100;
+	position: relative;
+	min-width: 200px;
+	max-width: 400px;
+	margin: 0;
+	left: 12px;
+	width: fit-content;
+	}
+	
+header h2
+	{
+	text-align: right;
+	font-weight: 900;
+	font-size: 200%;
+	margin-top: 0;
+	margin-bottom: 0;
+	margin-right: 10px;
+	bottom: 10pt;
+	right: 10px;
+	width: 60%;
+	text-shadow: black 4px 4px 4px;
+	position: absolute;
+	}
+
+header p {
+	font-family: var(--fnt_Header_Text);
+	color: var(--clr_Header_Text);
+}
+
+header a {
+	font-family: var(--fnt_Header_Link);
+	color: var(--clr_Header_Link);
+}
+
+header a:visited, header a:hover, header a:active {
+	font-family: var(--fnt_Header_Accent);
+	color: var(--clr_Header_Visited);
+}
+
+@media only screen and (max-width: 1024px) {
+	header h1 
+		{ 
+		font-size: 120%;
+		left: 0px;
+		}
+	header h2 { font-size: 110%; }
+}

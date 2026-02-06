@@ -1,0 +1,177 @@
+﻿/********************************************************************
+
+	This style sheet defines the standard styles for elements in
+	your web site as they should appear on a printed sheet of paper. 
+	It mirrors the Basic styles file. 
+
+*********************************************************************/
+
+/********************************************************************
+
+    	B A S I C   P A G E   L A Y O U T
+	
+*********************************************************************/
+
+body
+	{
+  background: none;
+	background-color: transparent;
+	color: <% =Basic(CW_Black) %>;
+  }
+
+/********************************************************************
+	
+          C O N T A I N E R S
+
+*********************************************************************/
+
+div.ContentContainer
+	{
+	position: static;
+	float: none;
+	clear: both;
+	padding: 0px;
+	margin: 0px; 
+	}
+
+/********************************************************************
+
+       S I D E B A R
+	
+*********************************************************************/
+
+div.Sidebar
+	{
+	display: none;
+	}
+	
+/********************************************************************
+	
+           C O N T E N T
+
+*********************************************************************/
+
+div.Content
+	{
+	position: static;
+	width: 100%;
+	padding: 0px;
+	margin: 0px;
+	}
+	
+div.Content a	
+	{
+	color: Black; 
+	text-decoration: none; 
+	}
+	
+.PrintOnly
+	{
+	display: block;
+	}
+	
+/********************************************************************
+
+    	N A V I G A T I O N
+	
+*********************************************************************/
+
+div.Menu_Horizontal
+	{
+	display: none;
+	}
+	
+/********************************************************************
+
+       I M A G E S
+	
+*********************************************************************/
+
+div.Content img.Left
+	{
+	float: left;
+	border: none;
+	margin-top: 4pt;
+	margin-right: 2em;
+	margin-bottom: 12pt;
+  margin-left: 0px;
+	}
+	
+div.Content img.Right
+	{
+	float: right;
+	border: none;
+	margin-top: 4pt;
+	margin-left: 2em;
+	margin-bottom: 12pt;
+	margin-right: 0px;
+	}
+	
+/********************************************************************
+
+    	T R A I L E R
+	
+*********************************************************************/
+
+div.Trailer
+	{
+	border-top-color: transparent;
+	}
+	
+/********************************************************************
+
+    	S P E C I A L
+
+*********************************************************************/
+
+.PrintOnly
+	{
+	display: block;
+	}
+	
+img
+	{
+	page-break-inside: avoid;
+	}
+	
+.NewPage
+	{
+ 	page-break-before: always;
+	}
+	
+.NoPrint
+	{
+	display: none;
+	}
+	
+.YesPrint
+	{
+	display: run-in;
+	}
+
+.PageBreak
+  {
+  page-break-before: always;
+  }
+
+div.Banner, div.Sidebar, div.Content, div.SearchBar, div.Captioned
+	{
+	border-radius: 0;
+	box-shadow: none;
+	}
+
+img, img.Left, img.Right
+  {
+	box-shadow: none;
+  }
+
+img
+  {
+  max-width: 80%;
+  }
+
+img.SidebarToggle
+  {
+  display: none;
+  }
+

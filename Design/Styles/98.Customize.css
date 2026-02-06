@@ -1,0 +1,269 @@
+﻿/********************************************************************
+
+      This style sheet defines the customization tweaks for 
+		elements in your web site.  
+	
+*********************************************************************/
+
+/********************************************************************
+   HEADER
+*********************************************************************/
+
+header h1 {
+	top: 20px;
+	left: 20px;
+	font-family: var(--fnt_Header_SiteTitle);
+	font-weight: 900;
+	color: ivory;
+	filter: drop-shadow(3px 3px 1px black);
+	position: absolute;
+	transition: all 1s ease;
+	transform: scale(0); /* start tiny */
+	opacity: 0; /* start invisible */
+}
+
+	header h1.loaded {
+		transform: scale(1); /* full size */
+		opacity: 1;
+	}
+	
+header h1 em 
+	{
+	perspective: 100px;
+	position: absolute;
+	font-size: 200%;
+	font-weight: bold;
+	font-family: var(--fnt_Header_SiteTitle2);
+	text-align: left;
+	margin-top: 10px;
+	margin-bottom: -10px;
+	color: var(--clr_Banner_Accent);
+	transform-style: preserve-3d;
+	transform: rotateZ(-15deg) rotateY(10deg);
+	-webkit-text-stroke-color: black;
+	-webkit-text-stroke-width: 1px;
+	background: -webkit-linear-gradient(darkorange, lightyellow);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	filter: drop-shadow(3px 3px 1px black);
+	width: 500px;
+	left: -80px;
+	bottom: -100px;
+	}
+	
+header h1 em::first-letter 
+	{
+	font-size: 200%;
+	bottom: -120px;
+	}
+
+@media only screen and (max-width: 600px)
+	{
+	header h1
+		{
+		top: 50px;
+		}
+	}
+	
+@media only screen and (max-width: 1000px)
+	{
+	header h1 em
+		{
+		margin-top: 10px; 
+		}
+	header h1 em 
+		{ 
+		left: -40px;
+		font-size: 32pt;
+		bottom: -50px;
+		width: 350px;	
+		}
+	header h1 em::first-letter
+		{
+		font-size: 38pt;
+		}
+	}
+	
+/********************************************************************
+    NAVIGATION
+*********************************************************************/
+
+main nav.HPUN a
+	{
+	min-height: 65px;
+	display: flex;
+	flex-direction: column;
+	justify-content: end;
+	margin-left: 5px;
+	height: 50px;
+	width: 50px;
+	}
+	
+a.NavHome, a.NavPrev, a.NavUp, a.NavNext, a.NavEarlier, a.NavLater
+	{
+	max-height: 60px;
+	padding: 50px 0px 0px 0px;
+	}
+
+@media only screen and (max-width: 1000px)
+	{
+	main nav.Gateways { display: none; }
+	}
+
+/********************************************************************
+
+    	M I L E S T O N E S
+	
+*********************************************************************/
+
+table.Milestone {
+	width: auto;
+	max-width: 80%;
+}
+
+	table.Milestone th {
+		margin-bottom: 4px;
+		text-align: right;
+		padding-right: 1em;
+		padding-left: 1em;
+		width: 20%;
+	}
+
+	table.Milestone td {
+		font-size: 10pt;
+		border-bottom-style: solid;
+		border-bottom-width: 1px;
+		width: 70%;
+	}
+
+	table.Milestone tr:last-of-type td {
+		border-bottom-style: none;
+	}
+
+div.PageBar table.Milestone tr.Age
+	{
+	display: none;
+	}
+
+div.BirthBoy table.Milestone th
+	{
+	color: DarkBlue;
+	background-color: lightblue;
+	}
+
+div.BirthGirl table.Milestone th
+	{
+	background-color: Pink;
+	color: Maroon;
+	}
+	
+div.Residence table.Milestone th
+	{
+	background-color: lightgreen;
+	color: darkolivegreen;
+	}
+	
+div.Education table.Milestone th
+	{
+	background-color: Aquamarine;
+	color: DarkCyan;
+	}
+	
+div.Employment table.Milestone th
+	{
+	background-color: DarkSeaGreen;
+	}
+	
+div.Marriage table.Milestone th
+	{
+	background-color: Violet;
+	}
+	
+div.Death table.Milestone th
+	{
+	background-color: Grey;
+	}
+	
+/********************************************************************
+
+  	F O R M S
+	
+*********************************************************************/
+/*
+input
+	{
+	padding: 4px;
+	}
+
+select
+	{
+	margin-bottom: 12pt;
+	}
+
+/********************************************************************
+
+    	C O D E   L I S T I N G S
+	
+*********************************************************************/
+/*
+.DOS
+	{
+	background: Black;
+	color: LightGreen;
+	font-family: "Lucida Console", Monaco, monospace, Courier;
+	font-size: 8pt;
+	font-weight: bold;
+	border-radius: 10pt;
+	box-shadow: 10px 10px 10 black;
+	overflow: auto;
+	}
+
+div.DOS
+	{
+	padding: 6pt;
+	}
+
+div.DOS p
+	{
+	margin-left: 0.5in;
+	text-indent: -0.5in;
+	}
+	
+pre.GreenBar
+	{
+	background-color: PaleGreen;
+	background-image: url('Images/Greenbar.gif');
+	background-repeat: repeat;
+	color: Black;
+	font-family: "Lucida Console", Monaco, monospace, Courier;
+	font-size: 8pt;
+	}
+
+/********************************************************************
+
+    	D I A L O G
+	
+*********************************************************************/
+/*
+table.Dialog
+	{
+	border-bottom: none;
+	}
+	
+table.Dialog tr
+	{
+	background-color: transparent;
+	}
+
+/********************************************************************
+
+    	A U D I O
+	
+*********************************************************************/
+
+audio
+	{
+	box-shadow: 5px 5px 10px black;
+	border-radius: var(--Device_Border_Radius);
+	}
+

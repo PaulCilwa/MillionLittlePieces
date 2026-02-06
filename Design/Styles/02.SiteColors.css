@@ -1,0 +1,93 @@
+﻿/********************************************************************
+    
+    DEFAULT COLORS
+
+*********************************************************************/
+
+:root {
+	/****************************************************************
+        BODY
+    ****************************************************************/
+	--clr_Body_Background_Top: white;
+	--clr_Body_Background_Bottom: #d6dbdf;
+	--clr_Body_Background_Image: linear-gradient(var(--clr_Body_Background_Top), var(--clr_Body_Background_Bottom));
+	--clr_Body_Heading: red;
+	--clr_Body_Text: red;
+	--clr_Body_Link: red;
+	--clr_Body_Accent: red;
+	/****************************************************************
+        HEADER
+    ****************************************************************/
+	--clr_Header_Background: #EFA696;
+	--clr_Header_SiteTitle: black;
+	--clr_Header_PageTitle: white;
+	--clr_Header_Heading: white;
+	--clr_Header_Text: #320900;
+	--clr_Header_Link: #355C04;
+	--clr_Header_Accent: #052F3F;
+	/****************************************************************
+        NAVIGATION
+    ****************************************************************/
+	--clr_Nav_Background: transparent;
+	--clr_Nav_Link: #011720;
+	--clr_Nav_Visited: var(--clr_Nav_Link);
+	/****************************************************************
+        SIDEBAR
+    ****************************************************************/
+	--clr_Sidebar_Background: #B7DB89;
+	--clr_Sidebar_Heading: #052F3F;
+	--clr_Sidebar_Text: #1A2E00;
+	--clr_Sidebar_Link: #320900;
+	--clr_Sidebar_Accent: #651504;
+	--clr_Sidebar_Button: #618796;
+	--clr_Sidebar_Button_Link: white;
+	/****************************************************************
+        CONTENT
+    ****************************************************************/
+	--clr_Content_Background: white;
+	--clr_Content_Heading: #651504;
+	--clr_Content_Text: black;
+	--clr_Content_Link: teal;
+	--clr_Content_Accent: navy;
+	--clr_Content_Visited: darkgreen;
+	/****************************************************************
+        CODE BLOCKS
+    ****************************************************************/
+	--clr_Code_Background: black;
+	--clr_Code_Text: greenyellow;
+	/****************************************************************
+        PANELS
+    ****************************************************************/
+	--clr_Panel_Background: #27586B;
+	--clr_Panel_Background_Light: var(--clr_Content_Background);
+	--clr_Panel_Text: Azure;
+	--clr_Panel_Text_Light: white;
+	--clr_Panel_Link: LightSkyBlue;
+	--clr_Panel_Heading: #EFA696;
+	--clr_Panel_Accent: #B7DB89;
+}
+
+/********************************************************************
+    BASE COLOR APPLICATION
+*********************************************************************/
+
+body { color: var(--clr_Body_Text); }
+
+a { color: var(--clr_Body_Link); }
+a:visited, a:hover, a:active { color: var(--clr_Body_Accent) }
+
+header {
+	background-color: var(--clr_Header_Background);
+	color: var(--clr_Header_Text);
+}
+
+h1 { color: var(--clr_Header_SiteTitle); }
+h2 { color: var(--clr_Header_PageTitle); }
+
+footer {
+	background-color: var(--clr_Panel_Background);
+	color: var(--clr_Panel_Text);
+}
+
+footer p.Copyright { color: var(--clr_Panel_Text); }
+

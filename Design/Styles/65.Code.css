@@ -1,0 +1,177 @@
+﻿/********************************************************************
+
+	CODE
+	
+*********************************************************************/
+
+code
+	{
+	display: block;
+	position: relative;
+	font-family: var(--fnt_Code);
+	color: var(--clr_Code_Text);
+	background-color: var(--clr_Code_Background);
+	white-space: pre;
+	tab-size: 4;
+	padding: 1em;
+	padding-top: 3em;
+	margin-bottom: 12pt;
+	text-align: left;
+	font-style: normal;
+	font-size: 10pt;
+	overflow: auto;
+	width: 750px;
+	max-width: 95%;
+	min-height: 75px;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: var(--DefaultBorderRadius);
+ 	box-shadow: 5px 5px 10px black;
+	}
+
+		body :not(p):not(aside) > code[src]::before {
+			content: attr(src);
+			position: absolute;
+			top: 0;
+			left: 0;
+			width: 100%;
+			padding: 6px 10px;
+			font-family: var(--fnt_Content_Heading);
+			font-size: 12pt;
+			font-weight: bold;
+			font-style: italic;
+			color: white;
+			background-color: rgba(0,0,0,0.35); /* subtle overlay */
+			border-bottom: 2px solid white; /* separator line */
+			border-top-left-radius: var(--DefaultBorderRadius);
+			border-top-right-radius: var(--DefaultBorderRadius);
+			box-sizing: border-box;
+		}
+
+	code.Short {
+		max-height: 400px;
+	}
+
+	code.Example {
+		color: yellow;
+		padding-top: 2.2em; /* space for the header bar */
+	}
+
+		code.Example::before {
+			content: "How to Use:";
+			position: absolute;
+			top: 0;
+			left: 0;
+			width: 100%;
+			padding: 6px 10px;
+			font-family: var(--fnt_Content_Heading);
+			font-size: 12pt;
+			font-weight: bold;
+			font-style: italic;
+			color: white;
+			background-color: rgba(0,0,0,0.35); /* subtle overlay */
+			border-bottom: 2px solid white; /* separator line */
+			border-top-left-radius: var(--DefaultBorderRadius);
+			border-top-right-radius: var(--DefaultBorderRadius);
+			box-sizing: border-box;
+		}
+
+	code .CopyButton {
+		position: absolute;
+		top: 6px;
+		right: 10px;
+		padding: 4px 8px;
+		font-size: 9pt;
+		background-color: #28a745;
+		color: white;
+		border: none;
+		border-radius: 4px;
+		cursor: pointer;
+		z-index: 10;
+	}
+
+p code,
+ul code,
+ol code,
+li code,
+h3 code,
+h4 code,
+aside code
+	{
+	display: inline;
+	white-space: normal;
+	padding: 0;
+	margin-bottom: inherit;
+	border-radius: 0;
+ 	box-shadow: none;
+	background-color: mintcream;
+	padding: 2px;
+	color: darkslategray;
+	font-size: inherit;
+}
+
+	aside code {
+		color: var(--clr_Code_Text);
+		background-color: transparent;
+	}
+
+code > h3, div.code > h3 
+	{
+	width: 100%;
+	margin-top: 0;
+	margin-bottom: 12pt;
+	padding: 10px;
+	line-height: 16pt;
+	text-align: center;
+	}
+
+code > em, div.code > em
+	{
+	color: black;
+	font-style: normal;
+	font-weight: 200;
+	font-size: 11pt;
+	}
+
+code > old, div.code > old
+	{
+	color: gray;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 11pt;
+	}
+
+pre.DOS, code.DOS
+	{
+	display: block;
+	position: relative;
+	width: 95%;
+    margin: 0 12pt 0 0;
+	padding: 9px 18px;
+	text-align: left;
+	font-style: normal;
+	}
+	
+pre.GreenBar, code.GreenBar
+	{
+	display: block;
+	width: 80%;
+	margin-left: 10%;
+	margin-bottom: 9px;
+	padding: 9px 18px;
+	background-image: url("../Images/GreenBar.gif");
+	color: midnightblue;
+	}
+	
+pre.syntax
+	{
+	background-color: tan;
+	color: Black;
+	display: block;
+	width: 100%;
+	font-family: "Lucida Console", Monaco, monospace, Courier;
+	font-size: 8pt; 
+	margin-bottom: 9px;
+	padding: 9px 18px;
+	}
+	

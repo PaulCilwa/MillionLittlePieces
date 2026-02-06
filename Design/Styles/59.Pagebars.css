@@ -1,0 +1,299 @@
+﻿/********************************************************************
+
+	PAGEBAR
+
+*********************************************************************/
+
+div.PageBar {
+    background-color: var(--clr_Panel_Background);
+    background-image: linear-gradient(to bottom, var(--clr_Panel_Background), var(--clr_Content_Background));
+    color: var(--clr_Panel_Background);
+    clear: both;
+    margin: 0;
+    padding: 12pt 1em 18pt 1em;
+    margin-bottom: 12pt;
+    page-break-inside: avoid;
+    position: relative;
+    border-radius: var(--DefaultBorderRadius) var(--DefaultBorderRadius) 0 0;
+    font-weight: normal;
+    font-size: 100%;
+    transition: background-color 0.4s ease, color 0.4s ease;
+}
+
+    div.PageBar.Link:hover {
+        background-image: none;
+        color: var(--clr_Panel_Text_Light);
+    }
+
+    div.PageBar.Link::after {
+        content: "Read More...";
+        display: block;
+        clear: both;
+        text-align: right;
+        padding-right: 4px;
+        color: LightSkyBlue;
+    }
+
+article div.PageBar p {
+    color: var(--clr_Panel_Background);
+    margin-right: 10px;
+    padding-left: 4px;
+    font-size: 95%;
+    transition: background-color 0.4s ease, color 0.4s ease;
+}
+
+article div.PageBar:hover p {
+    color: var(--clr_Panel_Text_Light);
+}
+
+article div.PageBar.Link h3 {
+    font-weight: 100;
+}
+
+article div.PageBar.Link a:visited h3 {
+    font-style: italic;
+}
+
+article div.PageBar.Link:hover h3 {
+    font-weight: 700;
+}
+
+article div.PageBar h3 {
+    background-color: transparent;
+    color: var(--clr_Panel_Heading);
+    line-height: 16pt;
+    width: 100%;
+    padding-bottom: 6pt;
+    padding-left: 6pt;
+    margin-top: 0;
+}
+
+article div.PageBar table {
+    border-spacing: 2px 0;
+    margin-bottom: 12pt;
+    overflow: hidden;
+    background-color: var(--clr_Panel_Background);
+    border: 0;
+    box-shadow: none;
+}
+
+    article div.PageBar table:hover {
+        font-weight: normal;
+    }
+
+    article div.PageBar table tr,
+    article div.PageBar table tr:nth-child(odd) {
+        background-color: transparent;
+        border: 2px white solid;
+    }
+
+    article div.PageBar table td {
+        display: table-cell;
+        max-width: 25%;
+        padding: 4pt;
+        font-size: 90%;
+        vertical-align: top;
+        border: inherit;
+        color: var(--clr_Panel_Text);
+    }
+
+        article div.PageBar table td.Hashtags {
+            font-family: var(--fnt_BodyHeading);
+            font-size: 90%;
+            font-style: normal;
+        }
+
+        article div.PageBar table td.Description {
+            font-family: var(--fnt_Content_Heading);
+            font-size: 100%;
+        }
+
+        article div.PageBar table td.Estimate {
+            font-style: italic;
+            font-family: var(--fnt_BodyHeading);
+            font-size: 90%;
+        }
+
+        article div.PageBar table td.Estimate {
+            font-style: italic;
+            font-family: var(--fnt_BodyHeading);
+            font-size: 90%;
+        }
+
+            article div.PageBar table td.Estimate::before {
+                content: "\1F551"; /* clock face, 2 o'clock */
+                font-style: normal; /* cancel italics */
+                margin-right: 0.3em; /* spacing */
+                display: inline-block;
+            }
+            
+        article div.PageBar table td:nth-of-type(1) {
+/*            width: 10%;
+            max-width: 15%;
+*/        }
+
+        article div.PageBar table td:nth-of-type(2) {
+            width: 30%;
+            min-width: 25%;
+        }
+
+        article div.PageBar table td:nth-of-type(3) {
+            width: 20%;
+            max-width: 20%;
+        }
+
+        article div.PageBar table td:nth-of-type(4) {
+            width: 15%;
+            max-width: 15%;
+            margin-right: 0;
+            border-style: none;
+        }
+
+article div.PageBar img {
+    width: 150px;
+    height: auto;
+    max-height: 400%;
+    float: left;
+    margin: 0 1em 6pt 6pt;
+    border: none;
+}
+
+@media only screen and (max-width: 1024px) {
+    article div.PageBar img {
+        width: 100px;
+    }
+}
+
+details div.PageBar {
+    background-image: linear-gradient(to bottom, var(--clr_Panel_Background), var(--clr_Content_Background));
+    border-radius: var(--DefaultBorderRadius);
+}
+
+/********************************************************************
+	QUICKLINK BARS
+*********************************************************************/
+
+div.QuickLinkBar {
+    background-color: var(--clr_Panel_Background);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    justify-content: center;
+    margin-bottom: 12pt;
+    height: auto;
+    max-height: 300px;
+    padding: 1pt;
+    overflow-x: auto;
+    width: 100%;
+    font-weight: normal;
+}
+
+    div.QuickLinkBar a {
+        width: 180px;
+    }
+
+    div.QuickLinkBar div {
+        border: thin var(--clr_Panel_Text) solid;
+        background-color: var(--clr_Panel_Background);
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        width: 150px;
+        min-height: 30px;
+        margin: 2px;
+        padding: 3px;
+    }
+
+        div.QuickLinkBar div h3 {
+            font-size: 95%;
+            margin-top: 0;
+            margin-bottom: 0;
+        }
+
+        div.QuickLinkBar div img {
+            width: 24px;
+            height: 24px;
+            margin-left: 2px;
+            margin-right: 4px;
+            margin-top: 0;
+            margin-bottom: 0;
+            box-shadow: none;
+            filter: none;
+            align-self: center;
+            border-radius: 0 !important;
+        }
+
+/********************************************************************
+  	  S E A R C H   B A R
+*********************************************************************/
+
+div.SearchBar {
+    overflow: auto;
+    margin: 0;
+    margin-bottom: 12pt;
+    padding: 0;
+    border-radius: var(--DefaultBorderRadius);
+    border: 2px var(--clr_Panel_Background) solid;
+    box-shadow: 5px 5px 10px black;
+    clear: both;
+    width: 100%;
+}
+
+    div.SearchBar h3 {
+        line-height: 16pt;
+        width: 100%;
+        margin-top: 0px;
+        margin-bottom: 3pt;
+        padding-bottom: 10pt;
+        padding-left: 5px;
+        background-color: var(--clr_Panel_Background);
+        color: var(--clr_Panel_Text);
+        padding: 4px;
+    }
+
+    div.SearchBar p {
+        margin-right: 10px;
+        padding-left: 20px;
+        margin-top: 0;
+    }
+
+    div.SearchBar table {
+        border: none;
+        box-shadow: none;
+        margin-bottom: 0;
+    }
+
+        div.SearchBar table tr {
+            color: var(--clr_Content_Text) !important
+        }
+
+            div.SearchBar table tr td {
+                border: none;
+            }
+
+                div.SearchBar table tr td label {
+                    margin-left: 1em;
+                }
+
+    div.SearchBar input {
+        background-color: whitesmoke;
+        color: var(--clr_Content_Text);
+        padding: 5px;
+    }
+
+#SearchButton {
+    background-color: var(--clr_Panel_Background)
+}
+
+#MaxResultsPerPage {
+    color: var(--clr_Panel_Background);
+}
+
+select {
+    background-color: var(--clr_Panel_Text);
+    color: var(--clr_Panel_Background);
+    margin-left: 1em;
+    height: 300px;
+    width: 96%;
+}

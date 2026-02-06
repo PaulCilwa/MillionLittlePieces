@@ -1,0 +1,67 @@
+﻿/********************************************************************
+
+    TABLES
+	
+*********************************************************************/
+
+table
+	{
+	display: table;
+	width: 100%;
+	background-color: var(--clr_Content_Background);
+	color: var(--clr_Content_Text);
+	border: 2px var(--clr_Panel_Background) solid;
+	margin-bottom: 24pt;
+	margin-left: auto;
+	margin-right: auto;
+	border-collapse: collapse;
+	box-shadow: 5px 5px 10px black;
+	}
+	
+aside table,
+aside figure
+	{
+	box-shadow: none;
+	margin-bottom: 0; 
+	}
+
+table caption,
+table th {
+	background-color: var(--clr_Panel_Background);
+	color: var(--clr_Panel_Heading);
+	font-weight: bold;
+}
+
+table caption {
+	font-weight: 900;
+	border-bottom: 1pt var(--clr_Panel_Text) solid;
+	color: var(--clr_Panel_Accent);
+}
+
+table:not(.Horizontal) tr:nth-child(odd) {
+	background-color: var(--clr_Panel_Background_Light);
+	color: var(--clr_Panel_Accent);
+}
+
+table.Horizontal tr:nth-child(even) {
+	background-color: var(--clr_Panel_Background);
+	color: var(--clr_Panel_Text);
+}
+  
+table td,
+table th
+	{
+	padding-left: 1em;
+	padding-right: 1em;
+	}
+
+table td {
+	border-right: 2px var(--clr_Panel_Background) solid;
+	border-bottom: 2px var(--clr_Panel_Background) solid;
+}
+	
+table.Horizontal td:last-of-type
+	{
+	border-right: initial;
+	}
+	

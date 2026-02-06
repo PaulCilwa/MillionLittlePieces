@@ -1,0 +1,70 @@
+﻿/********************************************************************
+	LISTS
+*********************************************************************/
+
+li
+	{
+	margin-bottom: 0; /* This creates an autocompressed list. If the <li>
+		actually contains a <p> or other tag, the larger bottom margin will
+		prevail. */
+	font-style: normal;
+	}
+	
+li::marker { font-style: italic; }
+
+ul
+	{
+	margin: 0 2% 10pt 2%;
+	padding: 0;
+	list-style-type: none;
+	}
+
+	ul li {
+		background-repeat: no-repeat;
+		padding-left: 10%;
+		text-align: left;
+		background-image: url('/Design/Images/Pointer.gif');
+		background-position: 20px 5px;
+		min-height: 30px;
+	}
+	
+ol
+	{
+	margin: 0 2% 10pt 2%;
+	padding: 0;
+	list-style-type: decimal;
+	}
+	
+ol li
+	{
+	margin-left: 40px;
+	min-height: 30px;
+	font-size: 110%;
+	font-weight: bold;
+	text-align: left;
+	}
+	
+ol.Roman li { list-style-type: upper-roman; }
+ol.Roman li li { list-style-type: lower-roman; }
+	
+ol.Scholarly li { list-style-type: upper-latin; }
+ol.Scholarly li li { list-style-type: lower-latin; }
+ol.Scholarly li li li { list-style-type: decimal; }
+
+li p
+	{
+	font-size: 1em;
+	font-weight: normal;
+	}
+
+dl
+	{
+	margin-bottom: 12pt;
+	}
+
+address
+	{
+	margin-left: 2em;
+	margin-bottom: 12pt;
+	}
+
