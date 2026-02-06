@@ -1,0 +1,33 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+<title>Organica Audio Test</title>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src='OrganicaAudio.js'></script>
+</head>
+
+<body style='background-color: aquamarine; text-align: center'>
+<h1>Let's test the Web Audio API!</h1>
+
+<audio controls id="Song1">
+<source src="COBOLin'.mp3">
+Your browser does not support the audio element.
+</audio>
+
+<input id="Button1" type="button" value="Play, Dammit!"/>
+
+<script>
+$(document).ready(function()
+	{
+	MyOrganicaAudio.AddTrack("audio","#Song1");
+	MyOrganicaAudio.AddTrack("Danny_Boy.mp3");
+
+	MyOrganicaAudio.PauseButtonID = "#Button1";
+	$("#Button1").click(MyOrganicaAudio.PauseResume);
+	});
+</script>
+
+</body>
+</html>

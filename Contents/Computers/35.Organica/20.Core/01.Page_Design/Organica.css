@@ -1,0 +1,90 @@
+﻿/********************************************************************
+
+       N E U T R A L I Z E S  B R O W S E R S
+
+*********************************************************************/
+
+* 	
+	{ 
+	margin: 0; 
+	padding: 0;
+	border: 0;
+	box-sizing: border-box;
+	}
+
+/********************************************************************
+
+       B A S I C   C O N T A I N E R S
+
+*********************************************************************/
+body
+	{
+	background-color: forestgreen;
+	background-image: url('../01.Page_Design');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: fixed;
+	background-size: cover;
+	
+	color: white;
+	
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+	flex-wrap: nowrap;
+	height: 100vh;
+	}
+	
+div.organica_Banner, div.organica_Footer
+	{
+	text-align: center;
+	width: 98%;
+	border: thick aqua solid;
+	margin-top: 1%;
+	margin-bottom: 1%;
+	background-color: rgba(240, 248, 255, 0.4);
+	
+	color: SaddleBrown;
+	text-shadow: 2px 2px 2px black;
+	padding: 5px;
+	}
+	
+div.organica_Footer
+	{
+	color: aqua;
+	border-width: thin;
+	}
+	
+ div.organica_ContentContainer
+	{
+/*	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: top;
+	flex-wrap: nowrap;
+	height: 100vh;
+	width: 98%;
+*/	
+	}
+div.organica_Toolbox
+	{
+	border: medium aqua solid;
+	}
+
+div.organica_Navigation
+	{
+	border: medium blue solid;
+	}
+
+div.organica_Content
+	{
+	border: medium red solid;
+	}
+	
+div.organica_Properties
+	{
+	border: medium yellow solid;
+	}
+	
+*/
