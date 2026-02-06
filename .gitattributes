@@ -1,0 +1,14 @@
+* text=auto
+*.vb text
+*.aspx text
+*.css text
+*.js text
+*.config text
+*.master text
+*.jpg binary
+*.jpeg binary
+*.png binary
+*.gif binary
+*.mp4 binary
+*.mp3 binary
+*.mdb binary

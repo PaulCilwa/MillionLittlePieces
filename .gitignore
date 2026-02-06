@@ -1,0 +1,39 @@
+# Build output
+bin/
+obj/
+
+# NuGet packages (restored via packages.config)
+packages/
+
+# Visual Studio
+.vs/
+*.user
+*.suo
+*.cache
+*.docstates
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# OneDrive / sync artifacts
+sync.ffs_db
+
+# Archives
+*.zip
+
+# Database lock files
+*.ldb
+
+# Files exceeding GitHub's 100MB limit (10 MP4 videos)
+Contents/About_My_Family/9999.Get-Togethers/2019-09-07.Toddlers_First_Campout/20190907_173227.mp4
+Contents/About_My_Family/9999.Get-Togethers/1999-12-25.Zach_First_Christmas/Video.mp4
+Contents/Places/10.North_America/America/Hawaii/Maui/2019.Maui_with_Keith/06-07.Haleakala/03.Zipline/20190607_115278.mp4
+Contents/About_My_Family/2001-01-08.Cailey/2001-12-25.Christmas/Video-480.mp4
+Contents/Places/10.North_America/America/Arizona/Sedona/Tuzigoot/2001/05.mp4
+Contents/Places/10.North_America/America/Hawaii/Maui/2019.Maui_with_Keith/06-07.Haleakala/03.Zipline/20190607_115270.mp4
+Contents/About_My_Family/2016-08-21.Dominic/2023-10-26.Mealtime_For_Dominics_Snake/20231026_153500.mp4
+Contents/Places/10.North_America/America/Hawaii/Maui/2019.Maui_with_Keith/06-07.Haleakala/03.Zipline/20190607_115263.MP4
+Contents/About_Me/1980s/1982-02-01.Skating/Ice_Skating_web.mp4
+Contents/About_My_Family/2001-01-08.Cailey/2020-01-08.19th_Birthday/20200108_192544.mp4
