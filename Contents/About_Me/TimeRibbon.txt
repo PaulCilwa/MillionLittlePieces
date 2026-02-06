@@ -1,0 +1,558 @@
+<div class=HorizontalScroll>
+	<table class=TimeRibbon>
+
+
+		<tr class=Residence>
+			<td colspan=18>Styertowne Apartments<br>930 Bloomfield Ave<br>Clifton, NJ
+			<td colspan=68>148 MacArthur Avenue<br>Garfield, NJ
+			<td colspan=40>Blueberry Hill<br>River Road<br>Victory, VT
+			<td colspan=2>1&frac12; C St<br>St. Augustine Beach, FL
+			<td colspan=18>312 St. George Street<br>St. Augustine, FL
+			<td colspan=2>19 Matanzas Circle<br>St. Augustine Beach, FL
+			<td colspan=56>504 B Street<br>St. Augustine Beach, FL
+			<td colspan=18>15 Sevilla Street<br>St. Augustine, FL
+			<td colspan=3>208 Beach Street #7<br>Tampa, FL
+			<td colspan=3>Hollywood, FL
+			<td colspan=23>15 Sevilla Street<br>St. Augustine, FL
+			<td colspan=2>311 Laurel Street<br>Palatka, FL
+			<td colspan=2>Breezy Brae Trailer Park<br>205 Wildwood Drive<br>St. Augustine South, FL
+			<td colspan=7>4 Sebastian Avenue<br>St. Augustine, FL
+			<td colspan=15>Fort Lauderdale, FL
+			<td colspan=6>14&frac12; Grant Street<br>St. Augustine, FL
+			<td colspan=5>United States Navy<br>Training Center<br>Great Lakes, IL
+			<td colspan=5>Zion, IL
+			<td colspan=2>El Patio<br>St. Augustine Beach, FL
+			<td colspan=3>Breezy Brae Trailer Park<br>205 Wildwood Drive<br>St. Augustine South, FL
+			<td colspan=18>Bakersville Fire Tower<br>Bakersville, FL
+			<td colspan=6>715 W 15th Street<br>Panama City, FL
+			<td colspan=6>Pensacola, FL
+			<td colspan=6>Arlington, VA
+			<td colspan=6>Pensacola, FL
+			<td colspan=2>Alexandria, VA
+			<td colspan=11>Ironwood Court<br>Manassas, VA
+			<td colspan=12>Omaha, NE
+			<td colspan=9>Blair, NE
+			<td colspan=8>Elkton, FL
+			<td colspan=6>Silver Spring, MD
+			<td colspan=3>camping, VA
+			<td colspan=28>Inlet Court<br>Reston, VA
+			<td colspan=10>Bluefish Court<br>Fort Myers, FL
+			<td colspan=12>Winterthur Apartments<br>11901 Winterthur Lane<br>Reston, VA
+			<td colspan=27>Deep Wood<br>Reston, VA
+			<td colspan=4>Windemere Apartments<br>1761 Main St.<br>Dunedin, FL
+			<td colspan=6><i>near Tampa, FL</i>
+			<td colspan=3>Cape Coral, FL
+			<td colspan=16>Countryside Village<br>60 Village Circle Way<br>Manchester, NH 03102
+			<td colspan=61>3 Eagle Nest Way<br>Manchester, NH
+			<td colspan=4><i>trailer in</i><br>Snowflake, AZ
+			<td colspan=17>Miller Trail Rd.<br>Snowflake, AZ
+			<td colspan=22>8759 Greenbrian Rd.<br>Peoria, AZ 85382
+			<td colspan=60>14630 N 90th Lane<br>Peoria, AZ 85381
+			<td colspan=42>10143 E Lobo Av.<br>Mesa, AZ 85209
+			<td colspan=19>9526 E Natal Avenue<br>Mesa, AZ 85209
+			<td colspan=6>2400 N Arizona Av. #1124<br>Chandler, AZ 85225
+			<td colspan=2>9233 E Neville Av. #1006<br>Mesa, AZ 85209
+			<td colspan=12>14109 N 83rd Av. #324<br>Peoria, AZ 85381
+			<td colspan=3>108 N Greenfield Rd. #108<br>Mesa, AZ 85205
+			<td colspan=20>4800 S Alma School Road<br>Chandler, AZ 85248
+			<td colspan=35>5726 N 10th St. #12<br>Phoenix, AZ 85014
+			<td colspan=2>1932 N Mesa Drive #9<br>Mesa, AZ 85201
+			<td colspan=12>1464 S Stapley Drive #1097<br>Mesa, AZ 85204
+			<td colspan=14>1464 S Stapley Drive #1057<br>Mesa, AZ 85204
+			<td colspan=23>Serenity Slope<br>PO Box 940<br>Hana, HI 96713
+			<td colspan=13>Acero at Cooley Station<br>3939 E Vest Avenue #249<br>Gilbert, AZ 85295
+			<td colspan=6>4417 E John St<br>Gilbert, AZ 85295
+		</tr>
+
+
+		<tr class=Posts>
+			<td colspan=1><img src="\Contents\About_Me\1950s\1951-04-08.And_Then_I_Was_Born\1951-04-09.First_Photo.jpg" /><a href="\Contents\About_Me\1950s\1951-04-08.And_Then_I_Was_Born\Default.aspx">My babyhood in Clifton, New Jersey.</a>
+			<td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+			<td></td><td></td><td></td><td></td><td></td>
+			<td colspan=1><img src="\Contents\About_Me\1950s\1952-09-01.Garfield\House.jpg" /><a href="\Contents\About_Me\1950s\1952-09-01.Garfield\Default.aspx">We move into my father&apos;s factory.</a>
+			<td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+			<td></td>
+			<td colspan=1><img src="\Contents\About_Me\1950s\1953-10-10.Louise\Badge.jpg" /><a href="\Contents\About_Me\1950s\1953-10-10.Louise\Default.aspx">I get another sister.</a>
+			<td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+			<td colspan=1><img src="\Contents\About_Me\1950s\1954-06-24.Dorothy_Gene\Missing_Baby.png" /><a href="\Contents\About_Me\1950s\1954-06-24.Dorothy_Gene\Default.aspx">The birth of my youngest baby sister.</a>
+			<td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+			<td></td><td></td><td></td><td></td><td></td><td></td>
+			<td colspan=1><img src="\Contents\About_Me\1950s\1955-12-16.RIP_Dorothy_Gene\BlackRose.jpg" /><a href="\Contents\About_Me\1950s\1955-12-16.RIP_Dorothy_Gene\Default.aspx">The time we lost my baby sister.</a>
+			<td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+			<td colspan=1><img src="\Contents\About_Me\1950s\1956-09-09.Kindergarten\Kindergarten.png" /><a href="\Contents\About_Me\1950s\1956-09-09.Kindergarten\Default.aspx">I am thrown into the educational system.</a>
+			<td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+			
+			<td colspan=1><img src="\Contents\About_Me\1950s\1957-09-09.First_Grade\Fun_With_Our_Family.jpg" /><a href="\Contents\About_Me\1950s\1957-09-09.First_Grade\Default.aspx">I did not like my first-grade teacher.</a>
+			<td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+			<td colspan=1><img src="\Contents\About_Me\1950s\1958-06-01.Vermont\Dad_Louise_Gramma.jpg" /><a href="\Contents\About_Me\1950s\1958-06-01.Vermont\Default.aspx">Rural life in the 1950s.</a>
+			<td></td><td></td>
+			<td colspan=1><img src="\Contents\About_Me\1950s\1958-09-08.Second_Grade\School_Bus.jpg" /><a href="\Contents\About_Me\1950s\1958-09-08.Second_Grade\Default.aspx">My continuing education.</a>
+			<td></td>
+			<td colspan=1><img src="\Contents\About_Me\1950s\1958-11-11.RIP_Dad\BlackRose.jpg" /><a href="\Contents\About_Me\1950s\1958-11-11.RIP_Dad\Default.aspx">At 7 years old, I experienced my second death-in-the-family.</a>
+			<td></td>
+			<td colspan=1><img src="\Contents\About_Me\1950s\1959-01-02.Second_Grade_NJ\fairview-school.jpg" /><a href="\Contents\About_Me\1950s\1959-01-02.Second_Grade_NJ\Default.aspx">Picking up where I left off.</a>
+			<td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+			<td colspan=1><img src="\Contents\About_Me\1950s\1959-09-07.Third_Grade\Mrs_Howe_Mrs_Casey.jpg" /><a href="\Contents\About_Me\1950s\1959-09-07.Third_Grade\Default.aspx">My continuing education.</a>
+			<td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+			
+			<td colspan=1><img src="\Contents\About_Me\1960s\1960-09-06.4th_Grade\Mrs_Howe.jpg" /><a href="\Contents\About_Me\1960s\1960-09-06.4th_Grade\Default.aspx">I begin my second year in the 3-grade schoolroom.</a>
+			<td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+			
+			<td colspan=1><img src="\Contents\About_Me\1960s\1961-09-05.5th_Grade\Classroom.jpg" /><a href="\Contents\About_Me\1960s\1961-09-05.5th_Grade\Default.aspx">My last month in a Vermont school.</a>
+			<td></td><td></td>
+			<td colspan=1><img src="\Contents\About_Me\1960s\1961-12-01.St_George_Street\01.312_St_George_St.png" /><a href="\Contents\About_Me\1960s\1961-12-01.St_George_Street\Default.aspx">That time we moved to St. Augustine, Florida.</a>
+			<td></td><td></td><td></td>
+			<td colspan=1><img src="\Contents\About_Me\1960s\1962-04-22.CPS_5th_Grade\Louise's_First_Communion.jpg" /><a href="\Contents\About_Me\1960s\1962-04-22.CPS_5th_Grade\Default.aspx">Changing schools can be daunting. Changing cultures, even more so.</a>
+			<td></td><td></td><td></td><td></td>
+			<td colspan=1><img src="\Contents\About_Me\1960s\1962-09-01.6th_Grade\Kaye_Forson.jpg" /><a href="\Contents\About_Me\1960s\1962-09-01.6th_Grade\Default.aspx">The year I met one of the most influential people to come into my life.</a>
+			<td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+			
+			<td colspan=-763><img src="\Contents\About_Me\1960s\1963-09-01.7th_Grade\Badge.jpg" /><a href="\Contents\About_Me\1960s\1963-09-01.7th_Grade\Default.aspx">My very first openly racist teacher.</a>
+			<td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+			<td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+			<td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+			<td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+			<td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+			<td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+			<td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+			<td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+			<td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+			<td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+			<td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+			<td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+			<td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+			<td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+			<td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+			<td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+			<td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+			<td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+			<td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+			<td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+			<td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+			<td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+			<td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+			<td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+			<td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+			<td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+			<td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+			<td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+			<td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+			<td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+			<td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+			<td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+			<td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+			<td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+			<td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+			<td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+			<td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+			<td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+			<td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+			<td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+			<td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+			<td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+			<td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+			<td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+			<td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+			<td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+			<td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+			<td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+			<td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+			<td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+			<td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+			<td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+			<td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+			<td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+			<td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+			<td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+			<td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+			<td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+			<td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+			<td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+			<td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+			<td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+			<td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+			<td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+			<td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+			<td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+			<td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+			<td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+			<td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+			<td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+			<td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+			<td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+			<td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+			<td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+			<td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+			<td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+			<td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+			<td></td><td></td><td></td><td></td>
+			<td colspan=1><img src="\Contents\About_Me\1960s\1964-09-01.8th_Grade\Badge.png" /><a href="\Contents\About_Me\1960s\1964-09-01.8th_Grade\Default.aspx">My continuing education.</a>
+			<td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+			<td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+			<td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+			<td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+			<td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+			<td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+			<td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+			<td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+			<td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+			<td colspan=1><img src="\Contents\About_Me\1970s\1972-02-12.Wedding\Paul_and_Mary.jpg" /><a href="\Contents\About_Me\1970s\1972-02-12.Wedding\Default.aspx">My first wedding was to Mary Ann Steinberg of St. Augustine, Florida, in February, 1972.</a>
+			<td colspan=1><img src="\Contents\About_Me\1970s\1972-03.First_Apartment\Airstream.jpg" /><a href="\Contents\About_Me\1970s\1972-03.First_Apartment\Default.aspx">Playing &apos;Married&apos; at 20 years old.</a>
+			<td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+			<td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+			<td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+			<td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+			<td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+			<td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+			<td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+			<td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+			<td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+			<td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+			<td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+			<td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+			<td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+			<td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+			<td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+			<td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+			<td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+			<td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+			<td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+			<td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+			<td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+			<td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+			<td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+			<td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+			<td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+			<td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+			<td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+			<td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+			<td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+			<td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+			<td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+			<td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+			<td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+			<td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+			
+			<td colspan=1><img src="\Contents\About_Me\2000s\2000-08-12.Wedding\32.MichaelPaul.JPG" /><a href="\Contents\About_Me\2000s\2000-08-12.Wedding\Default.aspx">Michael and I were married in the Unitarian Universalist Church of Surprise, AZ on August 12, 2000, at noon, by the Rev. Walt Wieder and the Rev. Surya-Patricia Lane Hood. Feel free to browse our wedding album. You&apos;re invited!</a>
+			<td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+			<td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+			<td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+			<td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+			<td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+			<td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+			<td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+			<td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+			<td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+			<td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+			<td></td><td></td><td></td><td></td><td></td><td></td>
+			<td colspan=1><img src="\Contents\About_Me\2000s\2009.Natal_House\2009-08-29.New_House\01.Front_Exterior.jpg" /><a href="\Contents\About_Me\2000s\2009.Natal_House\Default.aspx">Despite my concern that I would never be able to own a house&hellip;I bought a house.</a>
+		</tr>
+
+
+		<tr class=Employment>
+			<td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+			<td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+			<td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+			<td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+			<td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+			<td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+			<td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+			<td></td><td></td><td></td><td></td><td></td><td></td>
+			<td colspan=10>1st Grade<br>Our Lady of Mt. Virgin<br>Garfield, NJ
+			<td></td><td></td>
+			<td colspan=2>2nd Grade<br>Concord Elementary<br>Concord, VT
+			<td colspan=8>2nd Grade<br>Fairview Elementary<br>Bloomfield, NJ
+			<td></td><td></td>
+			<td colspan=10>3rd Grade<br>East Concord Elementary<br>East Concord, VT
+			<td></td><td></td>
+			<td colspan=10>4th Grade<br>East Concord Elementary<br>East Concord, VT
+			<td></td><td></td>
+			<td colspan=1>5th Grade<br>East Concord Elementary<br>East Concord, VT
+			<td colspan=9>5th Grade<br>Cathedral Parish School<br>St Augustine, FL
+			<td></td><td></td>
+			<td colspan=10>6th Grade<br>Cathedral Parish School<br>St Augustine, FL
+			<td></td><td></td>
+			<td colspan=10>7th Grade<br>Cathedral Parish School<br>St Augustine, FL
+			<td></td><td></td>
+			<td colspan=10>8th Grade<br>Cathedral Parish School<br>St Augustine, FL
+			<td></td><td></td>
+			<td colspan=10>9th Grade<br>St. Joseph Academy<br>St Augustine, FL
+			<td></td><td></td>
+			<td colspan=10>10th Grade<br>St. Joseph Academy<br>St Augustine, FL
+			<td></td><td></td>
+			<td colspan=10>11th Grade<br>St. Joseph Academy<br>St Augustine, FL
+			<td></td><td></td>
+			<td colspan=10>12th Grade<br>St. Joseph Academy<br>St Augustine, FL
+			<td></td><td></td><td></td>
+			<td colspan=3>Stanley Chair Company<br>Tampa, FL
+			<td colspan=3>Sears<br>Auto Department<br>Hollywood, FL
+			<td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+			<td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+			<td></td>
+			<td colspan=2>The Hungry Pelican and St. Johns Title Assurance<br>Palatka, FL	
+			<td colspan=2>Palm Coast<br>Tourguide<br>Palm Coast, FL
+			<td colspan=7>WAOC Radio<br>St Augustine, FL
+			<td></td><td></td><td></td>
+			<td colspan=12>King Pest Control<br>Ft Lauderdale, FL
+			<td></td>
+			<td colspan=3>Night Security Guard<br>St Augustine, FL
+			<td colspan=17>United States Navy
+			<td colspan=18>Florida State Division of Forestry (CETA)<br>Bakersville, FL
+			<td colspan=6>Florida State Division of Forestry<br>Panama City, FL
+			<td colspan=6>University of West Florida at Pensacola
+			<td colspan=6>Environmental Protection Agency<br>Alexandria, VA
+			<td colspan=6>University of West Florida at Pensacola
+			<td colspan=2>Environmental Protection Agency<br>Alexandria, VA
+			<td colspan=2>Professional Micro Systems<br>MacLean, VA
+			<td colspan=6>GTE Telenet<br>Tysons Corner, VA
+			<td colspan=3>EDP Temps<br>Tysons Corner, VA
+			<td colspan=21>Applied Communications, Inc.<br>Omaha, NE
+			<td colspan=8><i>Independent Consulting</i>
+			<td colspan=3>Entre<br>Tysons Corner, VA
+			<td colspan=34>National Association of Securities Dealers<br>Washington, DC
+			<td colspan=10>GBSI<br>Fort Myers, FL
+			<td colspan=18>Arlington Hospital<br>Arlington, VA
+			<td colspan=21>AdvenTech<br>Falls Church, VA
+			<td colspan=9>Nielson Media<br>Dunedin, FL
+			<td colspan=3>Harris Corporation<br>Cape Coral, FL
+			<td></td>
+			<td colspan=26>AIG Insurance<br>Manchester, NH
+			<td colspan=3>Hunneman Real Estate<br>Boston, MA
+			<td colspan=97>Independent Corporate Instructor<br>USA, Canada, Mexico, Germany
+			<td colspan=6>Writing Assignment<br><i>The Sun City Cannabis Club</i>
+			<td colspan=18>Schneider National Carriers<br>Ontario, CA
+			<td colspan=6>PETsMART (through Office Partners)<br>Phoenix, AZ
+			<td colspan=5>Software Testing Solutions<br><i>Remote, work at home</i>
+			<td></td>
+			<td colspan=13>Best Western (through Office Partners)<br>Phoenix, AZ
+			<td colspan=66>Toyota Financial Services (through Adecco)<br>Chandler, AZ
+			<td colspan=147><i>Retired</i>
+		</tr>
+
+		<tr class=Month>
+			<td>Apr</td>
+			<td>May</td><td>Jun</td><td>Jul</td><td>Aug</td><td>Sep</td><td>Oct</td>
+			<td>Nov</td><td>Dec</td><td>Jan</td><td>Feb</td><td>Mar</td><td>Apr</td>
+			<td>May</td><td>Jun</td><td>Jul</td><td>Aug</td><td>Sep</td><td>Oct</td>
+			<td>Nov</td><td>Dec</td><td>Jan</td><td>Feb</td><td>Mar</td><td>Apr</td>
+			<td>May</td><td>Jun</td><td>Jul</td><td>Aug</td><td>Sep</td><td>Oct</td>
+			<td>Nov</td><td>Dec</td><td>Jan</td><td>Feb</td><td>Mar</td><td>Apr</td>
+			<td>May</td><td>Jun</td><td>Jul</td><td>Aug</td><td>Sep</td><td>Oct</td>
+			<td>Nov</td><td>Dec</td><td>Jan</td><td>Feb</td><td>Mar</td><td>Apr</td>
+			<td>May</td><td>Jun</td><td>Jul</td><td>Aug</td><td>Sep</td><td>Oct</td>
+			<td>Nov</td><td>Dec</td><td>Jan</td><td>Feb</td><td>Mar</td><td>Apr</td>
+			<td>May</td><td>Jun</td><td>Jul</td><td>Aug</td><td>Sep</td><td>Oct</td>
+			<td>Nov</td><td>Dec</td><td>Jan</td><td>Feb</td><td>Mar</td><td>Apr</td>
+			<td>May</td><td>Jun</td><td>Jul</td><td>Aug</td><td>Sep</td><td>Oct</td>
+			<td>Nov</td><td>Dec</td><td>Jan</td><td>Feb</td><td>Mar</td><td>Apr</td>
+			<td>May</td><td>Jun</td><td>Jul</td><td>Aug</td><td>Sep</td><td>Oct</td>
+			<td>Nov</td><td>Dec</td><td>Jan</td><td>Feb</td><td>Mar</td><td>Apr</td>
+			<td>May</td><td>Jun</td><td>Jul</td><td>Aug</td><td>Sep</td><td>Oct</td>
+			<td>Nov</td><td>Dec</td><td>Jan</td><td>Feb</td><td>Mar</td><td>Apr</td>
+			<td>May</td><td>Jun</td><td>Jul</td><td>Aug</td><td>Sep</td><td>Oct</td>
+			<td>Nov</td><td>Dec</td><td>Jan</td><td>Feb</td><td>Mar</td><td>Apr</td>
+			<td>May</td><td>Jun</td><td>Jul</td><td>Aug</td><td>Sep</td><td>Oct</td>
+			<td>Nov</td><td>Dec</td><td>Jan</td><td>Feb</td><td>Mar</td><td>Apr</td>
+			<td>May</td><td>Jun</td><td>Jul</td><td>Aug</td><td>Sep</td><td>Oct</td>
+			<td>Nov</td><td>Dec</td><td>Jan</td><td>Feb</td><td>Mar</td><td>Apr</td>
+			<td>May</td><td>Jun</td><td>Jul</td><td>Aug</td><td>Sep</td><td>Oct</td>
+			<td>Nov</td><td>Dec</td><td>Jan</td><td>Feb</td><td>Mar</td><td>Apr</td>
+			<td>May</td><td>Jun</td><td>Jul</td><td>Aug</td><td>Sep</td><td>Oct</td>
+			<td>Nov</td><td>Dec</td><td>Jan</td><td>Feb</td><td>Mar</td><td>Apr</td>
+			<td>May</td><td>Jun</td><td>Jul</td><td>Aug</td><td>Sep</td><td>Oct</td>
+			<td>Nov</td><td>Dec</td><td>Jan</td><td>Feb</td><td>Mar</td><td>Apr</td>
+			<td>May</td><td>Jun</td><td>Jul</td><td>Aug</td><td>Sep</td><td>Oct</td>
+			<td>Nov</td><td>Dec</td><td>Jan</td><td>Feb</td><td>Mar</td><td>Apr</td>
+			<td>May</td><td>Jun</td><td>Jul</td><td>Aug</td><td>Sep</td><td>Oct</td>
+			<td>Nov</td><td>Dec</td><td>Jan</td><td>Feb</td><td>Mar</td><td>Apr</td>
+			<td>May</td><td>Jun</td><td>Jul</td><td>Aug</td><td>Sep</td><td>Oct</td>
+			<td>Nov</td><td>Dec</td><td>Jan</td><td>Feb</td><td>Mar</td><td>Apr</td>
+			<td>May</td><td>Jun</td><td>Jul</td><td>Aug</td><td>Sep</td><td>Oct</td>
+			<td>Nov</td><td>Dec</td><td>Jan</td><td>Feb</td><td>Mar</td><td>Apr</td>
+			<td>May</td><td>Jun</td><td>Jul</td><td>Aug</td><td>Sep</td><td>Oct</td>
+			<td>Nov</td><td>Dec</td><td>Jan</td><td>Feb</td><td>Mar</td><td>Apr</td>
+			<td>May</td><td>Jun</td><td>Jul</td><td>Aug</td><td>Sep</td><td>Oct</td>
+			<td>Nov</td><td>Dec</td><td>Jan</td><td>Feb</td><td>Mar</td><td>Apr</td>
+			<td>May</td><td>Jun</td><td>Jul</td><td>Aug</td><td>Sep</td><td>Oct</td>
+			<td>Nov</td><td>Dec</td><td>Jan</td><td>Feb</td><td>Mar</td><td>Apr</td>
+			<td>May</td><td>Jun</td><td>Jul</td><td>Aug</td><td>Sep</td><td>Oct</td>
+			<td>Nov</td><td>Dec</td><td>Jan</td><td>Feb</td><td>Mar</td><td>Apr</td>
+			<td>May</td><td>Jun</td><td>Jul</td><td>Aug</td><td>Sep</td><td>Oct</td>
+			<td>Nov</td><td>Dec</td><td>Jan</td><td>Feb</td><td>Mar</td><td>Apr</td>
+			<td>May</td><td>Jun</td><td>Jul</td><td>Aug</td><td>Sep</td><td>Oct</td>
+			<td>Nov</td><td>Dec</td><td>Jan</td><td>Feb</td><td>Mar</td><td>Apr</td>
+			<td>May</td><td>Jun</td><td>Jul</td><td>Aug</td><td>Sep</td><td>Oct</td>
+			<td>Nov</td><td>Dec</td><td>Jan</td><td>Feb</td><td>Mar</td><td>Apr</td>
+			<td>May</td><td>Jun</td><td>Jul</td><td>Aug</td><td>Sep</td><td>Oct</td>
+			<td>Nov</td><td>Dec</td><td>Jan</td><td>Feb</td><td>Mar</td><td>Apr</td>
+			<td>May</td><td>Jun</td><td>Jul</td><td>Aug</td><td>Sep</td><td>Oct</td>
+			<td>Nov</td><td>Dec</td><td>Jan</td><td>Feb</td><td>Mar</td><td>Apr</td>
+			<td>May</td><td>Jun</td><td>Jul</td><td>Aug</td><td>Sep</td><td>Oct</td>
+			<td>Nov</td><td>Dec</td><td>Jan</td><td>Feb</td><td>Mar</td><td>Apr</td>
+			<td>May</td><td>Jun</td><td>Jul</td><td>Aug</td><td>Sep</td><td>Oct</td>
+			<td>Nov</td><td>Dec</td><td>Jan</td><td>Feb</td><td>Mar</td><td>Apr</td>
+			<td>May</td><td>Jun</td><td>Jul</td><td>Aug</td><td>Sep</td><td>Oct</td>
+			<td>Nov</td><td>Dec</td><td>Jan</td><td>Feb</td><td>Mar</td><td>Apr</td>
+			<td>May</td><td>Jun</td><td>Jul</td><td>Aug</td><td>Sep</td><td>Oct</td>
+			<td>Nov</td><td>Dec</td><td>Jan</td><td>Feb</td><td>Mar</td><td>Apr</td>
+			<td>May</td><td>Jun</td><td>Jul</td><td>Aug</td><td>Sep</td><td>Oct</td>
+			<td>Nov</td><td>Dec</td><td>Jan</td><td>Feb</td><td>Mar</td><td>Apr</td>
+			<td>May</td><td>Jun</td><td>Jul</td><td>Aug</td><td>Sep</td><td>Oct</td>
+			<td>Nov</td><td>Dec</td><td>Jan</td><td>Feb</td><td>Mar</td><td>Apr</td>
+			<td>May</td><td>Jun</td><td>Jul</td><td>Aug</td><td>Sep</td><td>Oct</td>
+			<td>Nov</td><td>Dec</td><td>Jan</td><td>Feb</td><td>Mar</td><td>Apr</td>
+			<td>May</td><td>Jun</td><td>Jul</td><td>Aug</td><td>Sep</td><td>Oct</td>
+			<td>Nov</td><td>Dec</td><td>Jan</td><td>Feb</td><td>Mar</td><td>Apr</td>
+			<td>May</td><td>Jun</td><td>Jul</td><td>Aug</td><td>Sep</td><td>Oct</td>
+			<td>Nov</td><td>Dec</td><td>Jan</td><td>Feb</td><td>Mar</td><td>Apr</td>
+			<td>May</td><td>Jun</td><td>Jul</td><td>Aug</td><td>Sep</td><td>Oct</td>
+			<td>Nov</td><td>Dec</td><td>Jan</td><td>Feb</td><td>Mar</td><td>Apr</td>
+			<td>May</td><td>Jun</td><td>Jul</td><td>Aug</td><td>Sep</td><td>Oct</td>
+			<td>Nov</td><td>Dec</td><td>Jan</td><td>Feb</td><td>Mar</td><td>Apr</td>
+			<td>May</td><td>Jun</td><td>Jul</td><td>Aug</td><td>Sep</td><td>Oct</td>
+			<td>Nov</td><td>Dec</td><td>Jan</td><td>Feb</td><td>Mar</td><td>Apr</td>
+			<td>May</td><td>Jun</td><td>Jul</td><td>Aug</td><td>Sep</td><td>Oct</td>
+			<td>Nov</td><td>Dec</td><td>Jan</td><td>Feb</td><td>Mar</td><td>Apr</td>
+			<td>May</td><td>Jun</td><td>Jul</td><td>Aug</td><td>Sep</td><td>Oct</td>
+			<td>Nov</td><td>Dec</td><td>Jan</td><td>Feb</td><td>Mar</td><td>Apr</td>
+			<td>May</td><td>Jun</td><td>Jul</td><td>Aug</td><td>Sep</td><td>Oct</td>
+			<td>Nov</td><td>Dec</td><td>Jan</td><td>Feb</td><td>Mar</td><td>Apr</td>
+			<td>May</td><td>Jun</td><td>Jul</td><td>Aug</td><td>Sep</td><td>Oct</td>
+			<td>Nov</td><td>Dec</td><td>Jan</td><td>Feb</td><td>Mar</td><td>Apr</td>
+			<td>May</td><td>Jun</td><td>Jul</td><td>Aug</td><td>Sep</td><td>Oct</td>
+			<td>Nov</td><td>Dec</td><td>Jan</td><td>Feb</td><td>Mar</td><td>Apr</td>
+			<td>May</td><td>Jun</td><td>Jul</td><td>Aug</td><td>Sep</td><td>Oct</td>
+			<td>Nov</td><td>Dec</td><td>Jan</td><td>Feb</td><td>Mar</td><td>Apr</td>
+			<td>May</td><td>Jun</td><td>Jul</td><td>Aug</td><td>Sep</td><td>Oct</td>
+			<td>Nov</td><td>Dec</td><td>Jan</td><td>Feb</td><td>Mar</td><td>Apr</td>
+			<td>May</td><td>Jun</td><td>Jul</td><td>Aug</td><td>Sep</td><td>Oct</td>
+			<td>Nov</td><td>Dec</td><td>Jan</td><td>Feb</td><td>Mar</td><td>Apr</td>
+			<td>May</td><td>Jun</td><td>Jul</td><td>Aug</td><td>Sep</td><td>Oct</td>
+			<td>Nov</td><td>Dec</td><td>Jan</td><td>Feb</td><td>Mar</td><td>Apr</td>
+			<td>May</td><td>Jun</td><td>Jul</td><td>Aug</td><td>Sep</td><td>Oct</td>
+			<td>Nov</td><td>Dec</td><td>Jan</td><td>Feb</td><td>Mar</td><td>Apr</td>
+			<td>May</td><td>Jun</td><td>Jul</td><td>Aug</td><td>Sep</td><td>Oct</td>
+			<td>Nov</td><td>Dec</td><td>Jan</td><td>Feb</td><td>Mar</td><td>Apr</td>
+			<td>May</td><td>Jun</td><td>Jul</td><td>Aug</td><td>Sep</td><td>Oct</td>
+			<td>Nov</td><td>Dec</td><td>Jan</td><td>Feb</td><td>Mar</td><td>Apr</td>
+			<td>May</td><td>Jun</td><td>Jul</td><td>Aug</td><td>Sep</td><td>Oct</td>
+			<td>Nov</td><td>Dec</td><td>Jan</td><td>Feb</td><td>Mar</td><td>Apr</td>
+			<td>May</td><td>Jun</td><td>Jul</td><td>Aug</td><td>Sep</td><td>Oct</td>
+			<td>Nov</td><td>Dec</td><td>Jan</td><td>Feb</td><td>Mar</td><td>Apr</td>
+			<td>May</td><td>Jun</td><td>Jul</td><td>Aug</td><td>Sep</td><td>Oct</td>
+			<td>Nov</td><td>Dec</td><td>Jan</td><td>Feb</td><td>Mar</td><td>Apr</td>
+			<td>May</td><td>Jun</td><td>Jul</td><td>Aug</td><td>Sep</td><td>Oct</td>
+			<td>Nov</td><td>Dec</td><td>Jan</td><td>Feb</td><td>Mar</td><td>Apr</td>
+			<td>May</td><td>Jun</td><td>Jul</td><td>Aug</td><td>Sep</td><td>Oct</td>
+			<td>Nov</td><td>Dec</td><td>Jan</td><td>Feb</td><td>Mar</td><td>Apr</td>
+			<td>May</td><td>Jun</td><td>Jul</td><td>Aug</td><td>Sep</td><td>Oct</td>
+			<td>Nov</td><td>Dec</td><td>Jan</td><td>Feb</td><td>Mar</td><td>Apr</td>
+			<td>May</td><td>Jun</td><td>Jul</td><td>Aug</td><td>Sep</td><td>Oct</td>
+			<td>Nov</td><td>Dec</td><td>Jan</td><td>Feb</td><td>Mar</td><td>Apr</td>
+			<td>May</td><td>Jun</td><td>Jul</td><td>Aug</td><td>Sep</td><td>Oct</td>
+			<td>Nov</td><td>Dec</td><td>Jan</td><td>Feb</td><td>Mar</td><td>Apr</td>
+			<td>May</td><td>Jun</td><td>Jul</td><td>Aug</td><td>Sep</td><td>Oct</td>
+			<td>Nov</td><td>Dec</td><td>Jan</td><td>Feb</td><td>Mar</td><td>Apr</td>
+			<td>May</td><td>Jun</td><td>Jul</td><td>Aug</td><td>Sep</td><td>Oct</td>
+			<td>Nov</td><td>Dec</td><td>Jan</td><td>Feb</td><td>Mar</td><td>Apr</td>
+			<td>May</td><td>Jun</td><td>Jul</td><td>Aug</td><td>Sep</td><td>Oct</td>
+			<td>Nov</td><td>Dec</td><td>Jan</td><td>Feb</td><td>Mar</td><td>Apr</td>
+			<td>May</td><td>Jun</td><td>Jul</td><td>Aug</td><td>Sep</td><td>Oct</td>
+			<td>Nov</td><td>Dec</td><td>Jan</td><td>Feb</td><td>Mar</td><td>Apr</td>
+			<td>May</td><td>Jun</td><td>Jul</td><td>Aug</td><td>Sep</td><td>Oct</td>
+			<td>Nov</td><td>Dec</td><td>Jan</td><td>Feb</td><td>Mar</td><td>Apr</td>
+			<td>May</td><td>Jun</td><td>Jul</td><td>Aug</td><td>Sep</td><td>Oct</td>
+			<td>Nov</td><td>Dec</td><td>Jan</td><td>Feb</td><td>Mar</td><td>Apr</td>
+			<td>May</td><td>Jun</td><td>Jul</td><td>Aug</td><td>Sep</td><td>Oct</td>
+			<td>Nov</td><td>Dec</td><td>Jan</td><td>Feb</td><td>Mar</td><td>Apr</td>
+			<td>May</td><td>Jun</td><td>Jul</td><td>Aug</td><td>Sep</td><td>Oct</td>
+			<td>Nov</td><td>Dec</td><td>Jan</td><td>Feb</td><td>Mar</td><td>Apr</td>
+			<td>May</td><td>Jun</td><td>Jul</td><td>Aug</td><td>Sep</td><td>Oct</td>
+			<td>Nov</td><td>Dec</td><td>Jan</td><td>Feb</td><td>Mar</td><td>Apr</td>
+			<td>May</td><td>Jun</td><td>Jul</td><td>Aug</td><td>Sep</td><td>Oct</td>
+			<td>Nov</td><td>Dec</td><td>Jan</td><td>Feb</td><td>Mar</td><td>Apr</td>
+			<td>May</td><td>Jun</td><td>Jul</td><td>Aug</td><td>Sep</td><td>Oct</td>
+			<td>Nov</td><td>Dec</td><td>Jan</td><td>Feb</td><td>Mar</td><td>Apr</td>
+			<td>May</td><td>Jun</td><td>Jul</td><td>Aug</td><td>Sep</td><td>Oct</td>
+			<td>Nov</td><td>Dec</td><td>Jan</td><td>Feb</td><td>Mar</td><td>Apr</td>
+			<td>May</td><td>Jun</td><td>Jul</td>		</tr>
+
+		<tr class=Year>
+			<td colspan=6>1951</td>
+			<td colspan=12>1952</td>
+			<td colspan=12>1953</td>
+			<td colspan=12>1954</td>
+			<td colspan=12>1955</td>
+			<td colspan=12>1956</td>
+			<td colspan=12>1957</td>
+			<td colspan=12>1958</td>
+			<td colspan=12>1959</td>
+			<td colspan=12>1960</td>
+			<td colspan=12>1961</td>
+			<td colspan=12>1962</td>
+			<td colspan=12>1963</td>
+			<td colspan=12>1964</td>
+			<td colspan=12>1965</td>
+			<td colspan=12>1966</td>
+			<td colspan=12>1967</td>
+			<td colspan=12>1968</td>
+			<td colspan=12>1969</td>
+			<td colspan=12>1970</td>
+			<td colspan=12>1971</td>
+			<td colspan=12>1972</td>
+			<td colspan=12>1973</td>
+			<td colspan=12>1974</td>
+			<td colspan=12>1975</td>
+			<td colspan=12>1976</td>
+			<td colspan=12>1977</td>
+			<td colspan=12>1978</td>
+			<td colspan=12>1979</td>
+			<td colspan=12>1980</td>
+			<td colspan=12>1981</td>
+			<td colspan=12>1982</td>
+			<td colspan=12>1983</td>
+			<td colspan=12>1984</td>
+			<td colspan=12>1985</td>
+			<td colspan=12>1986</td>
+			<td colspan=12>1987</td>
+			<td colspan=12>1988</td>
+			<td colspan=12>1989</td>
+			<td colspan=12>1990</td>
+			<td colspan=12>1991</td>
+			<td colspan=12>1992</td>
+			<td colspan=12>1993</td>
+			<td colspan=12>1994</td>
+			<td colspan=12>1995</td>
+			<td colspan=12>1996</td>
+			<td colspan=12>1997</td>
+			<td colspan=12>1998</td>
+			<td colspan=12>1999</td>
+			<td colspan=12>2000</td>
+			<td colspan=12>2001</td>
+			<td colspan=12>2002</td>
+			<td colspan=12>2003</td>
+			<td colspan=12>2004</td>
+			<td colspan=12>2005</td>
+			<td colspan=12>2006</td>
+			<td colspan=12>2007</td>
+			<td colspan=12>2008</td>
+			<td colspan=12>2009</td>
+			<td colspan=12>2010</td>
+			<td colspan=12>2011</td>
+			<td colspan=12>2012</td>
+			<td colspan=12>2013</td>
+			<td colspan=12>2014</td>
+			<td colspan=12>2015</td>
+			<td colspan=12>2016</td>
+			<td colspan=12>2017</td>
+			<td colspan=12>2018</td>
+			<td colspan=12>2019</td>
+			<td colspan=12>2020</td>
+			<td colspan=12>2021</td>
+			<td colspan=12>2022</td>
+			<td colspan=12>2023</td>
+		</tr>
+
+	</table>
+</div>
+
